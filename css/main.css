@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 ul, li {
@@ -39,6 +40,7 @@ li {
 
 .navBar {
     height: 3rem;
+    box-shadow: 0px 0px 3px 3px #DDDDDD;
 }
 
 .navBar_icon {
@@ -63,10 +65,17 @@ li {
 .navBar_tool li {
     line-height: 3rem;
     width: 14.2857%;
+    color: #1F5A1A;
+    cursor: pointer;
+}
+
+.markTool {
+    font-weight: bolder;
 }
 
 .navBar_icon img, .searchIcon img {
     width: 24px;
+    cursor: pointer;
 }
 
 .header_spaceArea {
@@ -77,6 +86,7 @@ li {
 
 .searchArea {
     height: 2.5rem;
+    box-shadow: 0px 0px 3px 3px #DDDDDD;
 }
 
 .searchInput, .searchType {
