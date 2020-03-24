@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.whole {
+    width: 75%;
+    margin: auto;
+}
+
+.header, .navBar {
+    width: 100%;
+}
+
+.navBar, .searchArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D0E8CD;
+}
+
+.navBar {
+    height: 3rem;
+}
+
+.navBar_icon {
+    display: block;
+    position: relative;
+    float: left;
+    width: 30%;
+}
+
+.navBar_tool {
+    display: block;
+    position: relative;
+    float: right;
+    width: 70%;
+}
+
+.navBar_icon li {
+    margin-top: 3px;
+    width: 20%;
+}
+
+.navBar_tool li {
+    line-height: 3rem;
+    width: 14.2857%;
+}
+
+.navBar_icon img, .searchIcon img {
+    width: 24px;
+}
+
+.header_spaceArea {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+}
+
+.searchArea {
+    height: 2.5rem;
+}
+
+.searchInput, .searchType {
+    height: 1.5rem;
+}
+
+.searchType {
+    margin: 0 0 0 -1px;
+}
+
+.searchIcon {
+    margin: 0 0 0 5px;
+}
