@@ -22,6 +22,7 @@ li {
     text-align: center;
 }
 
+/* ========↓↓↓=header=↓↓↓========= */
 .whole {
     width: 75%;
     margin: auto;
@@ -43,26 +44,26 @@ li {
     box-shadow: 0px 0px 3px 3px #DDDDDD;
 }
 
-.navBar_icon {
+.navBarIcon {
     display: block;
     position: relative;
     float: left;
     width: 30%;
 }
 
-.navBar_tool {
+.navBarTool {
     display: block;
     position: relative;
     float: right;
     width: 70%;
 }
 
-.navBar_icon li {
+.navBarIcon li {
     margin-top: 3px;
     width: 20%;
 }
 
-.navBar_tool li {
+.navBarTool li {
     line-height: 3rem;
     width: 14.2857%;
     color: #1F5A1A;
@@ -73,12 +74,12 @@ li {
     font-weight: bolder;
 }
 
-.navBar_icon img, .searchIcon img {
+.navBarIcon img, .searchIcon img {
     width: 24px;
     cursor: pointer;
 }
 
-.header_spaceArea {
+.headerSpaceArea {
     display: flex;
     align-items: center;
     height: 8rem;
@@ -100,3 +101,78 @@ li {
 .searchIcon {
     margin: 0 0 0 5px;
 }
+/* ========↑↑↑=header=↑↑↑========= */
+
+
+/* ========↓↓↓=content=↓↓↓========= */
+.content {
+    height: 2rem;
+}
+/* ========↑↑↑=content=↑↑↑========= */
+
+
+/* ========↓↓↓=footer=↓↓↓========= */
+.footer, .slogan, .footerIcon, .footerHr {
+    width: 100%;
+}
+
+.footer {
+    background: #82B57E;
+    color: white;
+    box-shadow: 0px 0px 3px 3px #DDDDDD;
+}
+
+.innerFooter {
+    width: 70%;
+    margin: auto;
+}
+
+.slogan {
+    text-align: center;
+    letter-spacing: 5pt;
+    line-height: 2rem;
+}
+
+.footerIcon {
+    text-align: center;
+}
+
+.footerIcon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerIcon img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.footerHr {
+    border-top: 1px solid #333333;
+}
+
+.copyrightText {
+    display: block;
+    position: relative;
+    float: left;
+    width: 30%;
+    font-size: 0.5rem;
+}
+
+.footerBottom {
+    height: 2rem;
+}
+
+.footerTool {
+    display: block;
+    position: relative;
+    float: right;
+    width: 70%;
+}
+
+.footerTool li {
+    width: 20%;
+    cursor: pointer;
+}
+
+/* ========↑↑↑=footer=↑↑↑========= */
