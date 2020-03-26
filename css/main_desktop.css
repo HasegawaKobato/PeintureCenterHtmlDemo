@@ -155,7 +155,7 @@ li {
     display: block;
     position: relative;
     float: left;
-    width: 30%;
+    width: 25%;
     font-size: 0.5rem;
 }
 
@@ -167,7 +167,7 @@ li {
     display: block;
     position: relative;
     float: right;
-    width: 70%;
+    width: 75%;
 }
 
 .footerTool li {
