@@ -32,16 +32,24 @@ li {
     width: 100%;
 }
 
+..searchArea {
+    width: 50%;
+}
+
 .navBar, .searchArea {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #D0E8CD;
+    justify-content: center;    
 }
 
 .navBar {
     height: 3rem;
+    background: #D0E8CD;
     box-shadow: 0px 0px 3px 3px #DDDDDD;
+}
+
+.menuIcon, .sp_navBarLogo {
+    display: none;
 }
 
 .navBarIcon {
@@ -85,12 +93,30 @@ li {
     height: 8rem;
 }
 
-.searchArea {
+.searchBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     height: 2.5rem;
+    background: #D0E8CD;
     box-shadow: 0px 0px 3px 3px #DDDDDD;
 }
 
+.searchFormArea {
+    width: 90%;
+    display: flex;
+}
+
+.searchInput {
+    width: 70%;
+}
+
+.searchType {
+    width: 30%;
+}
+
 .searchInput, .searchType {
+    box-sizing: border-box;
     height: 1.5rem;
 }
 
@@ -99,7 +125,8 @@ li {
 }
 
 .searchIcon {
-    margin: 0 0 0 5px;
+    width: 10%;
+    margin: 10px 0 0 5px;
 }
 /* ========↑↑↑=header=↑↑↑========= */
 
@@ -160,6 +187,7 @@ li {
 }
 
 .footerBottom {
+    width: 100%;
     height: 2rem;
 }
 

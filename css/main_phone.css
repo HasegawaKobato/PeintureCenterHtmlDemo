@@ -1,5 +1,86 @@
 @media only screen and (max-width: 768px) {
-    html {
-        font-size: 10px;
+    .whole {
+        width: 100%;
+    }
+
+    .sp_navBarLogo {
+        display: block;
+        width: 30%;
+    }
+
+    .navBarIcon {
+        width: 70%;
+    }
+
+    .navBarIcon li {
+        box-sizing: border-box;
+    }
+
+    .navBarTool {
+        position: fixed;
+        right: -70%;
+    }
+
+    .stampIcon,
+    .supportIcon,
+    .headerSpaceArea,
+    .copyrightText {
+        display: none;
+    }
+
+    .menuIcon img {
+        width: 24px;
+    }
+
+    .menuIcon {
+        display: block;
+        box-sizing: border-box;
+        border-left: #333333 solid 2px;
+        float: right;
+        padding: 0 10px;
+    }
+
+    .searchBar {
+        position: absolute;
+        width: 65%;
+        top: 0;
+        left: 50%;
+        height: 3rem;
+        transform: translateX(-50%);
+        box-shadow: none;
+    }
+
+    .searchArea {
+        width: 100%;
+    }
+
+    .searchInput,
+    .searchType {
+        height: 2rem;
+    }
+
+
+
+
+    .innerFooter {
+        width: 100%;
+    }
+
+    .slogan {
+        letter-spacing: 1pt;
+    }
+
+    .footerTool {
+        width: 100%;
+        font-size: 0.75rem;
+    }
+
+    .leftBorder {
+        box-sizing: border-box;
+        border-left: solid white 2px;
+    }
+
+    .footerTool {
+        padding-top: 5px;
     }
 }
