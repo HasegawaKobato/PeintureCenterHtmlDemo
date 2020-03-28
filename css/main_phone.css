@@ -18,13 +18,15 @@
 
     .navBarTool {
         position: fixed;
-        right: -70%;
+        right: -100%;
     }
 
-    .stampIcon,
-    .supportIcon,
     .headerSpaceArea,
     .copyrightText {
+        display: none;
+    }
+
+    .navBarIcon li:nth-child(1), .navBarIcon li:nth-child(2) {
         display: none;
     }
 
@@ -54,8 +56,8 @@
         width: 100%;
     }
 
-    .searchInput,
-    .searchType {
+    .search input,
+    .search select {
         height: 2rem;
     }
 
@@ -75,11 +77,11 @@
         font-size: 0.75rem;
     }
 
-    .leftBorder {
+    .footerTool li:nth-child(2), .footerTool li:nth-child(3), .footerTool li:nth-child(4), .footerTool li:nth-child(5) {
         box-sizing: border-box;
         border-left: solid white 2px;
     }
-
+    
     .footerTool {
         padding-top: 5px;
     }

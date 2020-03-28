@@ -1,25 +1,15 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans TC', sans-serif;
-}
-
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-input, select {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 li {
     position: relative;
     float: left;
-    text-align: center;
+    list-style: none;
 }
 
 /* ========↓↓↓=header=↓↓↓========= */
@@ -28,11 +18,11 @@ li {
     margin: auto;
 }
 
-.header, .navBar {
+.header, .navBar, .searchBar {
     width: 100%;
 }
 
-..searchArea {
+.searchArea {
     width: 50%;
 }
 
@@ -78,7 +68,7 @@ li {
     cursor: pointer;
 }
 
-.markTool {
+.navBarTool li:nth-child(1) {
     font-weight: bolder;
 }
 
@@ -94,7 +84,6 @@ li {
 }
 
 .searchBar {
-    width: 100%;
     display: flex;
     justify-content: center;
     height: 2.5rem;
@@ -102,25 +91,25 @@ li {
     box-shadow: 0px 0px 3px 3px #DDDDDD;
 }
 
-.searchFormArea {
+.search {
     width: 90%;
     display: flex;
 }
 
-.searchInput {
+.search input {
     width: 70%;
 }
 
-.searchType {
+.search select {
     width: 30%;
 }
 
-.searchInput, .searchType {
+.search input, .search select {
     box-sizing: border-box;
     height: 1.5rem;
 }
 
-.searchType {
+.search select {
     margin: 0 0 0 -1px;
 }
 
@@ -155,13 +144,8 @@ li {
 }
 
 .slogan {
-    text-align: center;
     letter-spacing: 5pt;
     line-height: 2rem;
-}
-
-.footerIcon {
-    text-align: center;
 }
 
 .footerIcon ul {

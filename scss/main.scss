@@ -1,0 +1,377 @@
+$navBarBg: #D0E8CD;
+$footerBarBg: #82B57E;
+$fontDarkColor: #1F5A1A;
+$fontLightColor: #FFFFFF;
+$boxShadowColor: #DDDDDD;
+$hrColor: #333333;
+$rootFontSize: 16px;
+
+@mixin blockRelative () {
+    position: relative;
+    display: block;
+}
+
+@mixin preDisplayFlex () {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin preAlignItems ($param) {
+    -webkit-box-align: $param;
+    -ms-flex-align: $param;
+    align-items: $param;
+}
+
+@mixin preJustifyContent ($param) {
+    -webkit-box-pack: $param;
+    -ms-flex-pack: $param;
+    justify-content: $param;
+}
+
+@mixin preBoxSizing ($param) {
+    -webkit-box-sizing: $param;
+    box-sizing: $param;
+}
+
+@mixin preTransformX ($param) {
+    -webkit-transform: translateX($param);
+    -ms-transform: translateX($param);
+    transform: translateX($param);
+}
+
+@mixin preBoxShadow ($param1, $param2, $param3, $param4, $param5) {
+    @if ($param1==none) {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    @else {
+        @if ($param1=="") {
+            $param1: 0px;
+        }
+
+        @if ($param2=="") {
+            $param2: 0px;
+        }
+
+        @if ($param3=="") {
+            $param3: 3px;
+        }
+
+        @if ($param4=="") {
+            $param4: 3px;
+        }
+
+        @if ($param5=="") {
+            $param5: $boxShadowColor;
+        }
+
+        -webkit-box-shadow: $param1 $param2 $param3 $param4 $param5;
+        box-shadow: $param1 $param2 $param3 $param4 $param5;
+    }
+}
+
+%flexVerHrCenter {
+    @include preDisplayFlex();
+    @include preAlignItems(center);
+    @include preJustifyContent(center);
+}
+
+%blockRelative {
+    @include blockRelative();
+}
+
+// ----Global----
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    @include preBoxSizing(border-box);
+    text-align: center;
+}
+
+li {
+    @extend %blockRelative;
+    float: left;
+    list-style: none;
+}
+
+.header,
+.navBar,
+.searchBar,
+.footer,
+.slogan,
+.footerIcon,
+.footerHr,
+.footerBottom {
+    width: 100%;
+}
+
+.whole,
+.footerTool,
+.navBarTool,
+.innerFooter {
+    width: 75%;
+}
+
+.searchArea {
+    width: 50%;
+}
+
+.copyrightText {
+    width: 25%;
+}
+
+.whole,
+.innerFooter {
+    margin: auto;
+}
+
+.navBar,
+.searchArea {
+    @extend %flexVerHrCenter;
+}
+
+.navBar {
+    height: 3rem;
+    background: $navBarBg;
+    @include preBoxShadow(0px, 0px, 3px, 3px, $boxShadowColor);
+}
+
+.menuIcon,
+.sp_navBarLogo {
+    display: none;
+}
+
+.navBarIcon {
+    @extend %blockRelative;
+    float: left;
+    width: 30%;
+
+    li {
+        margin-top: 3px;
+        width: 20%;
+
+        img {
+            width: 24px;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.navBarTool {
+    @extend %blockRelative;
+    float: right;
+
+    li {
+        line-height: 3rem;
+        width: 14.2857%;
+        color: $fontDarkColor;
+        cursor: pointer;
+
+        &:nth-child(1) {
+            font-weight: bolder;
+        }
+    }
+}
+
+.headerSpaceArea {
+    @extend %flexVerHrCenter;
+    height: 8rem;
+}
+
+.searchBar {
+    @extend %flexVerHrCenter;
+    height: 2.5rem;
+    background: $navBarBg;
+    @include preBoxShadow(0px, 0px, 3px, 3px, $boxShadowColor);
+}
+
+.search {
+    @extend %flexVerHrCenter;
+    width: 90%;
+
+    input,
+    select {
+        @include preBoxSizing(border-box);
+        height: 1.5rem;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    select {
+        width: 30%;
+        margin: 0 0 0 -1px;
+    }
+}
+
+.searchIcon {
+    width: 10%;
+    margin: 10px 0 0 5px;
+
+    img {
+        width: 24px;
+        cursor: pointer;
+    }
+}
+
+.content {
+    height: 2rem;
+}
+
+.footer {
+    background: $footerBarBg;
+    color: $fontLightColor;
+    @include preBoxShadow(0px, 0px, 3px, 3px, $boxShadowColor);
+}
+
+.slogan {
+    letter-spacing: 5pt;
+    line-height: 2rem;
+}
+
+.footerIcon {
+    ul {
+        @extend %flexVerHrCenter;
+
+        img {
+            width: 24px;
+            margin: 0 10px;
+        }
+    }
+}
+
+.footerHr {
+    border-top: 1px solid $hrColor;
+}
+
+.copyrightText {
+    @extend %blockRelative;
+    float: left;
+    font-size: 0.5rem;
+}
+
+.footerBottom {
+    height: 2rem;
+}
+
+.footerTool {
+    @extend %blockRelative;
+    float: right;
+
+    li {
+        width: 20%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .whole {
+        width: 100%;
+    }
+
+    .innerFooter {
+        width: 85%;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .searchArea {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .whole,
+    .searchArea,
+    .innerFooter,
+    .footerTool {
+        width: 100%;
+    }
+
+    .sp_navBarLogo {
+        @include blockRelative();
+        width: 30%;
+    }
+
+    .navBarTool {
+        position: fixed;
+        right: -100%;
+    }
+
+    .headerSpaceArea,
+    .copyrightText {
+        display: none;
+    }
+
+    .navBarIcon {
+        width: 70%;
+
+        li {
+            @include preBoxSizing(border-box);
+
+            @for $i from 1 through 2 {
+                &:nth-child(#{$i}) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .menuIcon {
+        @include blockRelative();
+        @include preBoxSizing(border-box);
+        border-left: #333333 solid 2px;
+        float: right;
+        padding: 0 10px;
+
+        img {
+            width: 24px;
+        }
+    }
+
+    .searchBar {
+        position: absolute;
+        width: 65%;
+        top: 0;
+        left: 50%;
+        height: 3rem;
+        @include preTransformX(-50%);
+        @include preBoxShadow(none, "", "", "", "");
+    }
+
+    .search {
+
+        input,
+        select {
+            height: 2rem;
+        }
+    }
+
+    .slogan {
+        letter-spacing: 1pt;
+    }
+
+    .footerTool {
+        font-size: 0.75rem;
+        padding-top: 5px;
+
+        li {
+            @for $i from 2 through 5 {
+                &:nth-child(#{$i}) {
+                    @include preBoxSizing(border-box);
+                    border-left: solid white 2px;
+                }
+            }
+        }
+    }
+
+}
