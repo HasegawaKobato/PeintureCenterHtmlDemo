@@ -1,0 +1,86 @@
+.content {
+    display: block;
+    position: relative;
+    margin: 10px 0;
+}
+
+.worksCollection {
+    width: 100%;
+    box-shadow: 2px 0px 2px #DDDDDD;;
+    border-radius: 0px 10px 10px 10px;
+    clear: both;
+}
+
+.worksCollection table {
+    width: 100%;
+    color: #1F5A1A;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.worksCollection tr {
+    line-height: 2rem;
+}
+
+.worksCollection td {
+    border-bottom: #707070 dashed 1px;
+}
+
+.worksCollection tr:nth-child(1) {
+    background: #82B57E;
+    color: #FFFFFF;
+}
+
+.worksCollection tr:nth-child(1) td {
+    border: none;
+}
+
+.tagArea div {
+    display: block;
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: -10px;
+    color: #1F5A1A;
+    background: #D0E8CD;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    z-index: 5;
+}
+
+.tagArea div:nth-child(1) {
+    margin: 0;
+    background: #75A47A;
+    color: #FFFFFF;
+    z-index: 10;
+}
+
+.nextPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    color: #FFFFFF;
+    margin-top: 5px;
+    background: #82B57E;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nextPage div {
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.nextPage div:nth-child(1) {
+    text-align: left;
+}
+
+.nextPage div:nth-last-child(1) {
+    text-align: right;
+}
+
+.nextPage input {
+    width: 50px;
+}

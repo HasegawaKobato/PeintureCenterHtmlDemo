@@ -118,15 +118,10 @@ li {
     margin: 10px 0 0 5px;
 }
 /* ========↑↑↑=header=↑↑↑========= */
-
-
-/* ========↓↓↓=content=↓↓↓========= */
-.content {
-    height: 2rem;
+.header, .content, .footer {
+    display: block;
+    position: relative;
 }
-/* ========↑↑↑=content=↑↑↑========= */
-
-
 /* ========↓↓↓=footer=↓↓↓========= */
 .footer, .slogan, .footerIcon, .footerHr {
     width: 100%;
