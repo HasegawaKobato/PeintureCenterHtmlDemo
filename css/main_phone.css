@@ -3,6 +3,18 @@
         width: 100%;
     }
 
+    .header {
+        top: 0;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .subBar {
+        top: 48px;
+        position: fixed;
+        z-index: 990;
+    }
+
     .sp_navBarLogo {
         display: block;
         width: 30%;

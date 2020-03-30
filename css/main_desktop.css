@@ -21,6 +21,7 @@ li {
 
 .header, .navBar, .searchBar {
     width: 100%;
+    z-index: 10;
 }
 
 .searchArea {
@@ -36,7 +37,7 @@ li {
 .navBar {
     height: 3rem;
     background: #D0E8CD;
-    box-shadow: 0px 0px 3px 3px #DDDDDD;
+    box-shadow: 0px 0px 3px #707070;
 }
 
 .menuIcon, .sp_navBarLogo {
@@ -89,7 +90,7 @@ li {
     justify-content: center;
     height: 2.5rem;
     background: #D0E8CD;
-    box-shadow: 0px 0px 3px 3px #DDDDDD;
+    box-shadow: 0px 0px 3px #707070;
 }
 
 .search {
@@ -131,7 +132,7 @@ li {
 .footer {
     background: #82B57E;
     color: white;
-    box-shadow: 0px 0px 3px 3px #DDDDDD;
+    box-shadow: 0px 0px 3px #707070;
 }
 
 .innerFooter {

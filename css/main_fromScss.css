@@ -72,8 +72,8 @@ li {
 .navBar {
     height: 3rem;
     background: #D0E8CD;
-    -webkit-box-shadow: 0px 0px 3px 3px #DDDDDD;
-    box-shadow: 0px 0px 3px 3px #DDDDDD;
+    -webkit-box-shadow: 0px 0px 3px #888888;
+    box-shadow: 0px 0px 3px #888888;
 }
 
 .menuIcon,
@@ -118,8 +118,8 @@ li {
 .searchBar {
     height: 2.5rem;
     background: #D0E8CD;
-    -webkit-box-shadow: 0px 0px 3px 3px #DDDDDD;
-    box-shadow: 0px 0px 3px 3px #DDDDDD;
+    -webkit-box-shadow: 0px 0px 3px #888888;
+    box-shadow: 0px 0px 3px #888888;
 }
 
 .search {
@@ -159,8 +159,8 @@ li {
 .footer {
     background: #82B57E;
     color: #FFFFFF;
-    -webkit-box-shadow: 0px 0px 3px 3px #DDDDDD;
-    box-shadow: 0px 0px 3px 3px #DDDDDD;
+    -webkit-box-shadow: 0px 0px 3px #888888;
+    box-shadow: 0px 0px 3px #888888;
 }
 
 .slogan {

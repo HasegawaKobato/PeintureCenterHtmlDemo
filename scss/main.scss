@@ -2,7 +2,7 @@ $navBarBg: #D0E8CD;
 $footerBarBg: #82B57E;
 $fontDarkColor: #1F5A1A;
 $fontLightColor: #FFFFFF;
-$boxShadowColor: #DDDDDD;
+$boxShadowColor: #707070;
 $hrColor: #333333;
 $rootFontSize: 16px;
 
@@ -137,6 +137,7 @@ li {
 
 .header, .content, .footer {
     @extend %blockRelative;
+    z-index: 10;
 }
 
 .navBar,
@@ -197,7 +198,7 @@ li {
     @extend %flexVerHrCenter;
     height: 2.5rem;
     background: $navBarBg;
-    @include preBoxShadow(0px, 0px, 3px, 3px, $boxShadowColor);
+    @include preBoxShadow(0px, 0px, 3px, 0px, $boxShadowColor);
 }
 
 .search {
