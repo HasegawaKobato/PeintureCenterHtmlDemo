@@ -40,6 +40,12 @@ $rootFontSize: 16px;
     transform: translateX($param);
 }
 
+@mixin preTransition ($second) {
+    -webkit-transition: $second;
+    -o-transition: $second;
+    transition: $second;
+}
+
 @mixin preBoxShadow ($param1, $param2, $param3, $param4, $param5) {
     @if ($param1==none) {
         -webkit-box-shadow: none;
@@ -89,6 +95,7 @@ $rootFontSize: 16px;
     font-family: 'Noto Sans TC', sans-serif;
     @include preBoxSizing(border-box);
     text-align: center;
+    @include preTransition(0.3s);
 }
 
 li {

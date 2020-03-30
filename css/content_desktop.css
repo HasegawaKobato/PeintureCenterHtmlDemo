@@ -8,17 +8,28 @@
     width: 100%;
     box-shadow: 2px 0px 2px #DDDDDD;;
     border-radius: 0px 10px 10px 10px;
+    background: #82B57E;
     clear: both;
 }
 
 .worksCollection table {
+    display: table;
     width: 100%;
     color: #1F5A1A;
     text-align: center;
     border-collapse: collapse;
 }
 
+.worksCollection ul, .arrow {
+    display: none;
+}
+
+.skipPage {
+    display: block;
+}
+
 .worksCollection tr {
+    background: #FFFFFF;
     line-height: 2rem;
 }
 
@@ -27,11 +38,11 @@
 }
 
 .worksCollection tr:nth-child(1) {
-    background: #82B57E;
     color: #FFFFFF;
 }
 
 .worksCollection tr:nth-child(1) td {
+    background: #82B57E;
     border: none;
 }
 
@@ -63,22 +74,24 @@
     align-items: center;
     line-height: 2rem;
     color: #FFFFFF;
-    margin-top: 5px;
     background: #82B57E;
     border-radius: 0px 0px 10px 10px;
 }
 
 .nextPage div {
-    width: 33.33%;
     padding: 0 10px;
 }
 
 .nextPage div:nth-child(1) {
-    text-align: left;
+    width: 20%;
+}
+
+.nextPage div:nth-child(2) {
+    width: 60%;
 }
 
 .nextPage div:nth-last-child(1) {
-    text-align: right;
+    width: 20%;
 }
 
 .nextPage input {
