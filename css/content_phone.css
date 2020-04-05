@@ -98,7 +98,6 @@
         justify-content: center;
         align-items: center;
         color: #414141;
-        width: 15%;
     }
 
     .authors .colIndexTitle>div:nth-last-child(1) span:nth-last-child(1) {
@@ -162,4 +161,38 @@
         display: block;
     }
 
+    .announcementTable {
+        border-collapse: separate;
+        border-spacing: 0 5px;
+    }
+
+    .announcementTable tr {
+        box-shadow: 2px 2px 2px #DDDDDD;
+    }
+
+    .announcementTable tr td {
+        position: relative;
+        float: left;
+        width: 100%;
+        padding: 0 5px;
+    }
+    
+    .announcementTable tr td:nth-child(1) {
+        display: none;
+    }
+
+
+
+
+    tr.color_system {
+        background: #E8AB9E;
+    }
+    
+    tr.color_activity {
+        background: #9BC6E2;
+    }
+    
+    tr.color_message {
+        background: #8DE290;
+    }
 }

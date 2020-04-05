@@ -29,8 +29,8 @@
     width: 10%;
 }
 
-.works, .authors {
-    margin-top: 10px;
+.works, .authors, .announcements {
+    margin: 20px 0;
 }
 
 .themes {
@@ -133,4 +133,62 @@
 
 .nextPage input {
     width: 50px;
+}
+
+.announcements {
+    width: 100%;
+    box-shadow: 2px 0px 2px #DDDDDD;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.announcementTitle {
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    background: #588154;
+    font-weight: bolder;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.announcementContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcementTable {
+    width: 95%;
+    color: #414141;
+    border-collapse: collapse;
+}
+
+.announcementTable tr td:nth-child(1) {
+    text-align: left;
+    padding: 5px 10px 5px 0;
+}
+
+.announcementTable tr td:nth-child(1) span {
+    display: block;
+    border: #707070 solid 1px;
+    padding: 0 1rem;
+}
+
+.announcementTable tr td:nth-child(2) {
+    text-align: left;
+}
+
+.announcementTable tr td:nth-child(3) {
+    text-align: right;
+}
+
+span.color_system {
+    background: #E8AB9E;
+}
+
+span.color_activity {
+    background: #9BC6E2;
+}
+
+span.color_message {
+    background: #8DE290;
 }
