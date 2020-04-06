@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Noto Sans TC', sans-serif;
     box-sizing: border-box;
-    text-align: center;
     transition: 0.3s;
 }
 
@@ -21,7 +20,8 @@ li {
 
 .header, .navBar, .searchBar {
     width: 100%;
-    z-index: 10;
+    z-index: 10;    
+    text-align: center;
 }
 
 .searchArea {
@@ -126,7 +126,8 @@ li {
 }
 /* ========↓↓↓=footer=↓↓↓========= */
 .footer, .slogan, .footerIcon, .footerHr {
-    width: 100%;
+    width: 100%;    
+    text-align: center;
 }
 
 .footer {

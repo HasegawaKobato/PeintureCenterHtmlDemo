@@ -1,0 +1,82 @@
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #414141;
+}
+
+.half {
+    width: 50%;
+}
+
+.loginArea {
+    width: 80%;
+    margin: auto;
+}
+
+.loginTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #414141;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.loginForm input:not(.validateCode) {
+    width: 100%;
+}
+
+.loginForm div {
+    margin: 10px auto;
+}
+
+.validateCode {
+    width: 8rem;
+    float: right;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonArea div:nth-child(1) {
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2rem;
+    margin: auto;
+    background: #82B57E;
+    border: #365439 solid 1px;
+}
+
+.buttonArea div:nth-child(2) {
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2rem;
+    margin: auto;
+    background: #75A175;
+    border: #365439 solid 1px;
+}
+
+.forgetPassword_sp {
+    display: none;
+}
+
+.forgetPassword {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.signInWith {
+    width: 100%;
+}
+
+.signInWith img {
+    width: 100%;
+    margin: 10px 0;
+}

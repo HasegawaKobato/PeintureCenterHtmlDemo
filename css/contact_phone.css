@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+    .contact {
+        width: 100%;
+        margin: 65px 0 10px 0;
+    }
+
+    .contact table {
+        width: 100%;
+    }
+
+    .contact table tr td {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+    .contact table tr:not(:first-child) td {
+        border: none;
+    }
+    
+    .contact table tr td:nth-child(1) {
+        border: none;
+        font-weight: bolder;
+    }
+
+    .contact table tr td:nth-child(2) {
+        border-bottom: solid 1px #707070;
+    }
+
+    .advise {
+        padding: 5px;
+        text-align: left;
+    }
+    
+}

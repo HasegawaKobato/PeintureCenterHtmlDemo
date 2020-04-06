@@ -17,6 +17,7 @@
     width: 100%;
     background: #82B57E;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .workTypes ul {
@@ -31,6 +32,7 @@
 
 .works, .authors, .announcements {
     margin: 20px 0;
+    text-align: center;
 }
 
 .themes {
@@ -163,7 +165,7 @@
 }
 
 .announcementTable tr td:nth-child(1) {
-    text-align: left;
+    text-align: center;
     padding: 5px 10px 5px 0;
 }
 

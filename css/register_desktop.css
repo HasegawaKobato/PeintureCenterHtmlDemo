@@ -1,0 +1,65 @@
+.register {
+    width: 60%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+.registerTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #414141;
+    margin: 20px 0;
+}
+
+.registerInputArea {
+    height: 3rem;
+}
+
+.registerHint_sp {
+    display: none;
+    font-size: 0.75rem;
+    color: #414141;    
+}
+
+.registerHint {
+    font-size: 0.75rem;
+    color: #1F5A1A;
+}
+
+.register table {
+    margin: 10px auto;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.register table span:first-child {
+    color: #414141;
+    padding: 5px;
+    line-height: 2rem;
+}
+
+.register table tr td:nth-child(1) {
+    border-right: 1px solid #707070;
+}
+
+.registerButton {
+    width: 100px;
+    color: #FFFFFF;
+    line-height: 2rem;
+    margin: auto;
+    background: #82B57E;
+    border: #365439 solid 1px;
+}
+
+.signInWith {
+    width: 75%;
+    margin: auto;
+}
+
+.signInWith img {
+    width: 100%;
+    margin: 10px 0;
+}
