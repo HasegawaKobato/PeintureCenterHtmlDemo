@@ -1,0 +1,35 @@
+.about {
+    width: 60%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+.aboutTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #414141;
+    margin: 20px 0;
+}
+
+.begining, .aboutList {
+    text-align: left;
+}
+
+.indent li {
+    list-style-image: url(../img/listType.jpg);
+    list-style-position: inside;
+}
+
+.aboutList, .aboutList li {
+    clear: both;
+    float: initial;
+}
+
+.listSubtitle {
+    color: #1F5A1A;
+    list-style-type: initial;
+    font-size: 1rem;
+    font-weight: bolder;
+}
