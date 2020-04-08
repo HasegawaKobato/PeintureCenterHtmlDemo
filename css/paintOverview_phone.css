@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+    .content {
+        margin: 65px 0 10px auto;
+    }
+
+    .mainContent {
+        width: 95%;
+        margin: auto;
+    }
+
+    .collection {
+        background: #82B57E;
+    }
+
+    .collection>ul {
+        overflow: hidden;
+    }
+
+    .collection>ul>li {
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+
+    .tagArea div {
+        width: 50%;
+    }
+
+    .worksInformation {
+        display: none;
+    }
+
+    .workItem {
+        padding: 0;
+        background: none;
+        border: none;
+    }
+
+    .worksImg {
+        min-width: 100%;
+        height: min-content;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    .arrow {
+        display: block;
+    }
+
+    .skipPage {
+        display: none;
+    }
+
+}
