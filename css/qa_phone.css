@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    .qa {
+        width: 95%;
+        margin: 65px auto 10px auto;
+    }
+    
+    .qa table {
+        width: 100%;
+    }
+
+    .qa table tr td {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+    .qa table tr:not(:first-child) td {
+        border: none;
+    }
+    
+    .qa table tr td:nth-child(1) {
+        border: none;
+        font-weight: bolder;
+    }
+
+    .qa table tr td:nth-child(2) {
+        border-bottom: solid 1px #707070;
+    }
+
+}

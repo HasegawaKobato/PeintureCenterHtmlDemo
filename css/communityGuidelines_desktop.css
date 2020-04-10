@@ -1,0 +1,52 @@
+.communityGuidelines {
+    width: 75%;
+    display: block;
+    position: relative;
+    margin: 20px auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: left;
+}
+
+.communityGuidelinesArea, .communityGuidelinesCategory, .communityGuidelinesCategoryTitle, .communityGuidelines_Q {
+    width: 100%;
+}
+
+.communityGuidelinesArea {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    background: #FBFBFB;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.communityGuidelinesCategoryTitle {
+    padding: 0 10px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    background: #588154;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px #DDDDDD;
+}
+
+.communityGuidelinesItem {
+    font-weight: bolder;
+    color: #1F5A1A;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.communityGuidelinesItem ul {
+    clear: both;
+}
+
+.communityGuidelinesItem li {
+    float: initial;
+    list-style-type: initial;
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+
+.advise {
+    text-align: center;
+}

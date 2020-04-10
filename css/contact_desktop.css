@@ -3,7 +3,7 @@
     display: block;
     position: relative;
     margin: 0 auto 10px auto;
-    height: 70vh;
+    min-height: calc(100vh - 17.5rem - 24px);
     text-align: center;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .contact table {
-    margin: 10px 0;
+    margin: 10px auto;
     text-align: left;
     border-collapse: collapse;
 }
@@ -34,5 +34,5 @@
 }
 
 .advise {
-    text-align: left;
+    text-align: center;
 }

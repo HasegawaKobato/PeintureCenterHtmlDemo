@@ -1,4 +1,4 @@
-.about {
+.announcements {
     width: 60%;
     display: block;
     position: relative;
@@ -7,15 +7,28 @@
     text-align: center;
 }
 
-.aboutTitle {
+.announcementsTitle {
     font-size: 1.5rem;
     font-weight: bolder;
     color: #414141;
     margin: 20px 0;
 }
 
-.begining, .aboutList {
+.announcementsContent {
     text-align: left;
+    overflow: hidden;
+}
+
+.announcementsStatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcementsStatus span:nth-child(1) {
+    padding: 0 2rem;
+    color: #414141;
+    border: #707070 solid 1px;
 }
 
 .indent li {
@@ -23,14 +36,6 @@
     list-style-position: inside;
 }
 
-.aboutList, .aboutList li {
-    clear: both;
-    float: initial;
-}
-
-.listSubtitle {
-    color: #1F5A1A;
-    list-style-type: initial;
-    font-size: 1rem;
-    font-weight: bolder;
+span.color_system {
+    background: #E8AB9E;
 }

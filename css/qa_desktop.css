@@ -1,0 +1,82 @@
+.qa {
+    width: 75%;
+    display: block;
+    position: relative;
+    margin: 20px auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: left;
+}
+
+.qaArea, .qaCategory, .qaCategoryTitle, .qa_Q, .qa_A {
+    width: 100%;
+}
+
+.qaArea {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    background: #FBFBFB;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.qaCategoryTitle {
+    padding: 0 10px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    background: #588154;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px #DDDDDD;
+}
+
+.qaItem {
+    width: 98%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0 auto 10px auto;
+    border-bottom: 1px solid #707070;
+    text-align: left;
+}
+
+.qa_Q {
+    font-weight: bolder;
+    color: #1F5A1A;
+}
+
+.qa_A {
+    counter-reset: #414141;
+    text-align: center;
+}
+
+.qa_A img {
+    width: 75%;
+    box-shadow: 2px 2px 2px #DDDDDD;
+}
+
+.qa_A *:not(img) {
+    text-align: left;
+}
+
+.qa table {
+    margin: 10px auto;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.qa table span {
+    padding: 5px;
+    line-height: 2rem;
+}
+
+.qa table tr:not(:first-child) td {
+    border-top: 1px solid #707070;
+}
+
+.qa table tr td:nth-child(1) {
+    border-right: 1px solid #707070;
+}
+
+.advise {
+    text-align: center;
+}

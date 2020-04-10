@@ -3,6 +3,7 @@
     display: block;
     position: relative;
     margin: 0 auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
     text-align: center;
 }
 

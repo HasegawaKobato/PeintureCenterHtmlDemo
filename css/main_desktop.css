@@ -186,3 +186,43 @@ li {
 }
 
 /* ========↑↑↑=footer=↑↑↑========= */
+
+.type_fantasy {
+    background: #FFFFAC;
+}
+
+.type_love {
+    background: #E89EDE;
+}
+
+.type_horrible {
+    background: #AAAAAA;
+}
+
+.type_reasoning {
+    background: #E8C19E;
+}
+
+.type_SF {
+    background: #9EE8C5;
+}
+
+.type_literary {
+    background: #8DE290;
+}
+
+.type_comedy {
+    background: #E8AB9E;
+}
+
+.type_artialArts {
+    background: #9BC6E2;
+}
+
+.type_bgl {
+    background: #C69EE8;
+}
+
+.type_else {
+    background: #9E9EE8;
+}
