@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+    .content {
+        margin: 105px 0 10px auto;
+    }
+
+    .new {
+        width: 95%;
+        margin: 65px auto 10px auto;
+    }
+
+    .subBar {
+        position: fixed;
+    }
+
+    .workTypes {
+        overflow-x: scroll;
+    }
+
+    .workTypes ul {
+        width: max-content;
+    }
+
+    .workTypes li {
+        width: 75px;
+    }
+
+}

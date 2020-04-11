@@ -1,0 +1,118 @@
+.content {
+    display: block;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.new {
+    width: 60%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: center;
+    overflow: hidden;
+}
+
+.subBar {
+    width: 100%;
+}
+
+.workTypes {
+    width: 100%;
+    background: #82B57E;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.workTypes ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workTypes li {
+    width: 10%;
+}
+
+.themes {
+    width: 100%;
+    background: #D0E8CD;
+    text-align: center;
+    color: #2D548F;
+}
+
+.newSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #1F5A1A;
+    margin: 20px 0;
+}
+
+.newSelect span {
+    margin-right: 1rem;
+}
+
+.newSelect select, .oneRow select {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #414141;
+}
+
+.newNovelArea {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: left;
+    color: #414141;
+}
+
+.newNovelArea>div {
+    margin: 10px 0;
+}
+
+.oneRow {
+    display: flex;
+    align-items: center;
+}
+
+.oneRow input[type="text"] {
+    width: 70%;
+}
+
+.fieldName {
+    display: block;
+    width: 30%;
+}
+
+.browseButton, .postButton {
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 15px;
+    border: #365439 solid 1px;
+}
+
+.browseButton {
+    background: #82B57E;
+}
+
+.breakRow textarea {
+    width: 100%;
+    min-height: 5rem;
+    resize: vertical;
+}
+
+div.postButtonArea {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.postButton {
+    margin: 0 auto;
+    background: #75A175;
+}

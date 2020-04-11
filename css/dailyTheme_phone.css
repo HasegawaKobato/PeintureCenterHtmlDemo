@@ -1,15 +1,31 @@
 @media only screen and (max-width: 768px) {
     .content {
-        margin: 105px 0 10px auto;
+        margin: 65px 0 10px auto;
     }
-
-    .mainContent {
+    
+    .mainContent, .dailyTheme {
         width: 95%;
         margin: auto;
     }
 
+    .subBar {
+        position: fixed;
+    }
+
+    .workTypes {
+        overflow-x: scroll;
+    }
+
+    .workTypes ul {
+        width: max-content;
+    }
+
+    .workTypes li {
+        width: 75px;
+    }
+
     .tagArea div {
-        width: 25%;
+        width: 50%;
     }
 
     .collection table, .skipPage {
@@ -37,6 +53,11 @@
         border-bottom: #707070 solid 1px;
     }
 
+    .authors .colIndexTitle {
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
     .works .colIndexTitle span:nth-child(1) {
         width: 15%;
         padding: 0;
@@ -45,6 +66,13 @@
         border: #707070 solid 1px;
     }
 
+    .authors .colIndexTitle div:nth-child(1) span:nth-child(1) {
+        padding: 0;
+        color: #1F5A1A;
+        font-weight: bolder;
+        text-align: left;
+    }
+    
     .works .colIndexTitle span:nth-child(2) {
         text-align: left;
         padding-left: 5px;
@@ -53,9 +81,27 @@
         font-weight: bolder;
     }
 
+    .authors .colIndexTitle div:nth-child(1) span:nth-child(2) {
+        text-align: left;
+        padding-left: 5px;
+        color: #414141;
+        font-size: 0.5rem;
+    }
+
     .works .colIndexTitle span:nth-child(3) {
         width: 15%;
         text-align: right;
+    }
+
+    .authors .colIndexTitle>div:nth-last-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #414141;
+    }
+
+    .authors .colIndexTitle>div:nth-last-child(1) span:nth-last-child(1) {
+        text-decoration: underline;
     }
 
     .colInformation>div {
@@ -102,8 +148,51 @@
         text-decoration: underline;
     }
 
+    .authors .colInformation div {
+        justify-content: space-between;
+    }
+
+    .authors .colInformation div span {
+        color: #414141;
+        text-decoration: underline;
+    }
+
     .arrow {
         display: block;
     }
 
+    .announcementTable {
+        border-collapse: separate;
+        border-spacing: 0 5px;
+    }
+
+    .announcementTable tr {
+        box-shadow: 2px 2px 2px #DDDDDD;
+    }
+
+    .announcementTable tr td {
+        position: relative;
+        float: left;
+        width: 100%;
+        padding: 0 5px;
+    }
+    
+    .announcementTable tr td:nth-child(1) {
+        display: none;
+    }
+
+
+
+
+    tr.color_system {
+        background: #E8AB9E;
+    }
+    
+    tr.color_activity {
+        background: #9BC6E2;
+    }
+    
+    tr.color_message {
+        background: #8DE290;
+    }
 }

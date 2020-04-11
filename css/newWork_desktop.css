@@ -1,0 +1,119 @@
+.content {
+    display: block;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.new {
+    width: 60%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: center;
+    overflow: hidden;
+}
+
+.subBar {
+    width: 100%;
+}
+
+.workTypes {
+    width: 100%;
+    background: #82B57E;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.workTypes ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workTypes li {
+    width: 10%;
+}
+
+.themes {
+    width: 100%;
+    background: #D0E8CD;
+    text-align: center;
+    color: #2D548F;
+}
+
+.newSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #1F5A1A;
+    margin: 20px 0;
+}
+
+.newSelect span {
+    margin-right: 1rem;
+}
+
+.newSelect select {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #414141;
+}
+
+.newWorkArea {
+    text-align: left;
+}
+
+.newButton {
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 15px;
+    background: #82B57E;
+    border: #365439 solid 1px;
+}
+
+.workItem {
+    width: 100%;
+    display: block;
+    border-bottom: 1px dashed #707070;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.workItem>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #414141;
+    margin: 5px 0;
+}
+
+.workItem>div>span:nth-child(1) {
+    width: calc(100% - 24px);
+    display: block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.workItem>div>span:nth-child(2) {
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px #707070;
+}
+
+.workItem img {
+    width: 100%;
+}
+
+.workName>span, .workBook>span, .workChapter>span {
+    display: block;
+    width: 33.33%;
+    float: left;
+    min-height: 1rem;
+}
