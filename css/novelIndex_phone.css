@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+    .novelIndex {
+        width: 95%;
+        margin: 65px auto 10px auto;
+    }
+
+    .cover {
+        margin-top: 0;
+    }
+
+    .bookArea, .chapterArea {
+        width: calc(100% - 1rem);
+    }
+
+    .chapterArea {
+        margin-left: 1rem;
+    }
+}

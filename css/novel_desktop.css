@@ -1,0 +1,231 @@
+.novel {
+    width: 60%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    overflow: hidden;
+    text-align: center;
+    color: #414141;
+}
+
+.workArea, .fourmArea {
+    margin-top: 1rem;
+}
+
+.chapterInfo, .workContent {
+    width: 100%;
+    text-align: left;
+}
+
+.workHead {
+    width: 100%;
+}
+
+.workTitle, .workDetail, .secNovelHead, .msgHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workTitle {
+    border-bottom: 1px solid #707070;
+}
+
+.workTitle span:nth-child(1), .blockTitle {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #1F5A1A;
+}
+
+.workInformation span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.workContent {
+    margin-top: 0.5rem;
+}
+
+.goto {
+    width: fit-content;
+    margin: 2rem auto 0 auto;
+    overflow: hidden;
+}
+
+.previousButton, .nextButton, .toIndexButton {
+    width: 120px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    margin: 0 0.9rem;
+    border: #365439 solid 1px;
+}
+
+.previousButton, .nextButton {
+    background: #82B57E;
+}
+
+.toIndexButton {
+    background: #75A175;
+}
+
+.like, .newIdea, .illustrateArea, .illustrate, .secWorkArea, .secPaint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like {
+    margin: 1rem auto;
+}
+
+.like span:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.likeButton {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.likeButton img {
+    width: 100%;
+}
+
+.newIdeaButton {
+    width: 200px;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    border: 1px solid #707070;
+    background: #2D548F;
+}
+
+.block:not(:last-child) {
+    overflow: hidden;
+    border-bottom: 1px solid #707070;
+}
+
+.blockTitle {
+    text-align: left;
+}
+
+.tags span {
+    position: relative;
+    float: left;
+    margin: 0.25rem 0.5rem;
+    padding: 0 1rem;
+    color: #414141;
+    border: #707070 solid 1px;
+}
+
+.illustrateScroll, .secWorkScroll {
+    padding: 0.5rem 0;
+    overflow-x: scroll;
+}
+
+.illustrateArea, .secWorkArea {
+    width: max-content;
+}
+
+.illustrate, .secPaint, .secNovel {
+    height: 150px;
+    margin: 0 0.5rem;
+    border: #707070 solid 1px;
+    overflow: hidden;
+}
+
+.illustrate img, .secPaint img {
+    width: 150px;
+}
+
+.secNovel {
+    width: 300px;
+    background: #D0E8CD;
+    padding: 0 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px #DDDDDD;
+}
+
+.secNovelContent {
+    max-height: 6rem;
+    text-align: left;
+    overflow-y: hidden;
+}
+
+.secNovelPopularity {
+    text-align: right;
+}
+
+.secNovelPopularity span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.msgBoard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: #707070 solid 1px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    box-sizing: border-box;
+}
+
+.msgBoard:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.authorImage {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: #707070 solid 1px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    overflow: hidden;
+}
+
+.authorImage img {
+    width: 100%;
+}
+
+.msgArea {
+    width: calc(100% - 100px);
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.msgHead {
+    border-bottom: #707070 solid 1px;
+}
+
+.msgContent {
+    text-align: left;
+}
+
+.deleteButton {
+    float: right;
+    border: #707070 solid 1px;
+    padding: 0 5px;
+    background: #E8AB9E;
+}
+
+.leaveAMessage {
+    width: 100%;
+    margin-top: 3rem;
+    min-height: 7rem;
+    resize: none;
+}
+
+.submitMessage {
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2rem;
+    margin: 1rem auto 2rem auto;
+    background: #75A175;
+    border: #365439 solid 1px;
+}

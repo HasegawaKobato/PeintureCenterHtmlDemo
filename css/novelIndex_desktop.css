@@ -1,0 +1,142 @@
+.novelIndex {
+    width: 60%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    overflow: hidden;
+    text-align: center;
+    color: #414141;
+}
+
+.cover, .novelDetail, .indexArea {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 1rem;
+}
+
+.cover {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.cover img {
+    width: 100%;
+}
+
+.novelHead, .novelInformation, .classHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novelHead {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.novelTitle {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.novelTitle span:nth-child(1) {
+    padding: 0 1rem;
+    border: 1px solid #707070;
+    color: #414141;
+    text-align: center;
+}
+
+.novelTitle span:nth-child(2), .indexText {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    text-align: left;
+    color: #1F5A1A;
+}
+
+.novelTitle span:nth-child(2) {
+    margin-left: 0.5rem;
+}
+
+.novelAuthor {
+    text-align: right;
+}
+.novelDescription {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.informationItem span:nth-child(2),
+.classPopularity span:nth-child(2),
+.classInfoItem span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.bookUl, .bookLi, .chapterUl, .chapterLi {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bookLi {
+    margin-bottom: 1rem;
+}
+
+.chapterLi {
+    margin-top: 0.5rem;
+}
+
+.bookArea, .chapterArea {
+    width: 70%;
+    border: 1px solid #707070;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.bookArea {
+    background: #B7D9B3;
+}
+
+.chapterArea {
+    margin-left: 15%;
+    background: #D0E8CD;
+}
+
+.classHead {
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.classHead>span:nth-child(1) {
+    color: #1F5A1A;
+}
+
+.classFooter {
+    overflow: hidden;
+}
+
+.classInfoItem {
+    width: fit-content;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+
+.classFooter>.classInfoItem:not(:last-child) {
+    padding-left: 1.5rem;
+}
+
+.classFooter>.classInfoItem:first-child {
+    padding: 0;
+}
+
+.classFooter>.classInfoItem:last-child {
+    float: right;
+    text-align: right;
+}
