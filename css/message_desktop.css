@@ -1,0 +1,153 @@
+.message {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: center;
+}
+
+.contactArea, .chatroomArea {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contactArea {
+    width: 25%;
+}
+
+.chatroomArea {
+    width: 75%;
+    height: calc(100vh - 13.5rem);
+}
+
+.searchContact, .contactPerson, .contactPerson>li, .contactCover img, .submitMessage {
+    width: 100%;
+}
+
+.searchContact, .contactPerson>li, .contactCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchContact {
+    height: 2.5rem;
+    background: green;
+}
+
+.searchContact>input {
+    width: 60%;
+}
+
+.contactPerson {
+    max-height: calc(100vh - 16rem);
+    overflow-y: scroll;
+}
+
+.contactPerson>li {
+    margin: 5px 0;
+}
+
+.contactCover {
+    width: 60px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 0 0.5rem;
+}
+
+.previewMessage {
+    width: calc(100% - 100px);
+    line-break: anywhere;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.previewMessage span {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+    max-height: 2rem;
+    overflow: hidden;
+}
+
+.contactMore {
+    width: 50px;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+.contactMore span {
+    display: block;
+    transform: rotate(90deg);
+}
+
+.submitMessage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: forestgreen;
+    height: 2rem;
+}
+
+.submitMessage>input {
+    width: calc(100% - 2rem - 20px);
+}
+
+.submitMessageButton {
+    width: 5rem;
+    box-sizing: border-box;
+    margin-left: 10px;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    background-color: green;
+    border: 1px solid darkgreen;
+}
+
+.otherMessage {
+    overflow: hidden;    
+}
+
+.otherMessage .messageArea {
+    float: left;
+}
+
+.selfMessage .messageArea {
+    float: right;
+}
+
+.messageArea {
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.messageInfo {
+    width: calc(100% - 1rem - 60px);
+}
+
+.messageInfo span {
+    width: 100%;
+    display: block;
+    text-align: left;
+    line-break: anywhere;
+}
+
+.messageInfo span:nth-child(1) {
+    font-size: 0.9rem;
+}
+
+.messageInfo span:nth-child(2) {
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
