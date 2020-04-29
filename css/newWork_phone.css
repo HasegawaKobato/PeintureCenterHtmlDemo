@@ -13,15 +13,16 @@
     }
 
     .workTypes {
+        max-width: 100%;
         overflow-x: scroll;
     }
 
-    .workTypes ul {
+    .workTypesArea {
         width: max-content;
     }
 
-    .workTypes li {
-        width: 75px;
+    .workTypesArea span {
+        padding: 0 1rem;
     }
 
 }

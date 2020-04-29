@@ -8,6 +8,19 @@
         margin: auto;
     }
 
+    .workTypes {
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    
+    .workTypesArea {
+        width: max-content;
+    }
+    
+    .workTypesArea span {
+        padding: 0 1rem;
+    }
+
     .tagArea div {
         width: 25%;
     }

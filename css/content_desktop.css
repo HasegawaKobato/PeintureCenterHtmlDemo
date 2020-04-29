@@ -20,14 +20,12 @@
     text-align: center;
 }
 
-.workTypes ul {
+.workTypesArea {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.workTypes li {
-    width: 10%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .works, .authors, .announcements {

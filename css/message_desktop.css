@@ -5,6 +5,7 @@
     margin: 0 auto;
     min-height: calc(100vh - 17.5rem - 24px);
     text-align: center;
+    color: #414141;
 }
 
 .contactArea, .chatroomArea {
@@ -15,14 +16,16 @@
 
 .contactArea {
     width: 25%;
+    z-index: 10;
 }
 
 .chatroomArea {
     width: 75%;
     height: calc(100vh - 13.5rem);
+    z-index: 5;
 }
 
-.searchContact, .contactPerson, .contactPerson>li, .contactCover img, .submitMessage {
+.searchContact, .contactPerson, .contactPerson>li, .contactCover img, .submitMessage, .thisContact {
     width: 100%;
 }
 
@@ -32,22 +35,28 @@
     align-items: center;
 }
 
-.searchContact {
+.searchContact, .thisContact {
     height: 2.5rem;
-    background: green;
+    background: #82B57E;
 }
 
 .searchContact>input {
-    width: 60%;
+    width: calc(60% - 34px);
 }
 
 .contactPerson {
     max-height: calc(100vh - 16rem);
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .contactPerson>li {
-    margin: 5px 0;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.contactPerson>li:hover {
+    background: #DDDDDD;
 }
 
 .contactCover {
@@ -68,9 +77,17 @@
     display: block;
     width: 100%;
     text-align: left;
-    margin: 5px 0;
     max-height: 2rem;
     overflow: hidden;
+}
+
+.previewMessage span:nth-child(1) {
+    color: #1F5A1A;
+    line-height: 1.5rem;
+}
+
+.previewMessage span:nth-child(2) {
+    line-height: 1rem;
 }
 
 .contactMore {
@@ -85,6 +102,32 @@
     transform: rotate(90deg);
 }
 
+.thisContact {
+    align-items: center;
+    position: absolute;
+    top: -2.5rem;
+}
+
+.thisContact span:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.thisContact span:nth-child(1) img {
+    width: 100%;
+}
+
+.thisContact span:nth-child(2) {
+    color: white;
+}
+
+.chatArea {
+    max-height: calc(100vh - 15.5rem);
+    overflow-y: scroll;
+}
+
 .submitMessage {
     display: flex;
     align-items: center;
@@ -93,7 +136,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background: forestgreen;
+    background: #82B57E;
     height: 2rem;
 }
 
@@ -107,26 +150,33 @@
     margin-left: 10px;
     line-height: 1.5rem;
     color: #FFFFFF;
-    background-color: green;
-    border: 1px solid darkgreen;
+    background-color: #75A175;
+    border: 1px solid #365439;
 }
 
 .otherMessage {
     overflow: hidden;    
 }
 
+.otherMessage, .selfMessage {
+    width: 100%;
+    padding: 1rem 0; 
+    overflow: hidden;
+}
+
+.messageArea {
+    width: 60%;
+}
 .otherMessage .messageArea {
+    display: flex;
+    align-items: flex-start;
     float: left;
 }
 
 .selfMessage .messageArea {
-    float: right;
-}
-
-.messageArea {
     display: flex;
-    align-items: flex-start;
-    width: 60%;
+    align-items: flex-end;
+    float: right;
 }
 
 .messageInfo {
@@ -136,7 +186,6 @@
 .messageInfo span {
     width: 100%;
     display: block;
-    text-align: left;
     line-break: anywhere;
 }
 
@@ -144,10 +193,32 @@
     font-size: 0.9rem;
 }
 
+.otherMessage .messageInfo span:nth-child(1) {
+    text-align: left;
+}
+
+.selfMessage .messageInfo span:nth-child(1) {
+    text-align: right;
+}
+
 .messageInfo span:nth-child(2) {
     padding: 5px;
+    color: #1F5A1A;
+    text-align: left;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px #DDDDDD;
     border: 1px solid #707070;
     border-radius: 10px;
+    background: #EBF5EA;
+    padding: 5px;
+}
+
+.isRead {
+    display: block;
+    margin-right: 5px;
+    color: #1F5A1A;
+}
+
+.footer, .thisContact {
+    display: none;
 }
