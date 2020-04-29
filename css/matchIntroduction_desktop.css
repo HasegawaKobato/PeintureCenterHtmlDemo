@@ -29,7 +29,6 @@
     width: 30%;
     height: 2rem;
     line-height: 2rem;
-    margin-left: -5%;
     color: #1F5A1A;
     background: #D0E8CD;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
@@ -37,7 +36,11 @@
 }
 
 .tagArea div:nth-child(1) {
-    margin: 0;
+    margin-left: 0;
+}
+
+.tagArea div:nth-child(2) {
+    margin-left: -5%;
     background: #75A47A;
     color: #FFFFFF;
     z-index: 10;

@@ -1,13 +1,23 @@
 window.onload = function (eve) {
-    let lis = document.querySelectorAll(".contactPerson>li");
-    let back = document.querySelector(".thisContact span:nth-child(1)");
-    lis.forEach(item => {
-        item.addEventListener('click', changePage);
-    })
-
-    back.addEventListener('click', changePage);
-
-    window.addEventListener('resize', changePage);
+    if (location.pathname.includes('message')) {
+        let lis = document.querySelectorAll(".contactPerson>li");
+        let back = document.querySelector(".thisContact span:nth-child(1)");
+        lis.forEach(item => {
+            item.addEventListener('click', changePage);
+        })
+    
+        back.addEventListener('click', changePage);
+    
+        window.addEventListener('resize', changePage);
+    } else if (
+        location.pathname.includes('newPaint') ||
+        location.pathname.includes('newChapter') ||
+        location.pathname.includes('newNovel') ||
+        location.pathname.includes('newWork')
+    ) {
+        let select = document.querySelector('.newSelect select');
+        select.addEventListener('change', newWork)
+    }
 }
 
 function changePage(event) {
@@ -34,5 +44,14 @@ function changePage(event) {
         contactArea.setAttribute('style', '')
         footer.setAttribute('style', '')
         chatroomArea.setAttribute('style', '')
+    }
+}
+
+function newWork(event) {
+    if (event.target.value == 0) {
+        console.log(location.href)
+        location.href = "./newWork.html"
+    } else if (event.target.value == 1) {
+        location.href = "./newPaint.html"
     }
 }
