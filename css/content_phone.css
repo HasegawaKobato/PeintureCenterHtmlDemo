@@ -12,11 +12,11 @@
         max-width: 100%;
         overflow-x: scroll;
     }
-    
+
     .workTypesArea {
         width: max-content;
     }
-    
+
     .workTypesArea span {
         padding: 0 1rem;
     }
@@ -25,7 +25,8 @@
         width: 25%;
     }
 
-    .collection table, .skipPage {
+    .collection table,
+    .skipPage {
         display: none;
     }
 
@@ -45,9 +46,10 @@
 
     .colIndexTitle {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding-bottom: 5px;
         border-bottom: #707070 solid 1px;
+        color: #414141;
     }
 
     .works .colIndexTitle span:nth-child(1) {
@@ -71,9 +73,26 @@
         text-align: right;
     }
 
+    .authors .colIndexTitle div:nth-child(1) span:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .authors .colInformation>div:nth-child(1) {
+        justify-content: space-between;
+    }
+
+    .authors .colIndexTitle div:nth-child(1) span:nth-child(1) {
+        color: #1F5A1A;
+        font-weight: bolder;
+    }
+
     .colInformation>div {
         width: 100%;
         color: #414141;
+    }
+
+    .colInformation>div>div>span, .colIndexTitle>div:nth-child(2)>span:nth-child(2) {
+        text-decoration: underline;
     }
 
     .colInformation>div:nth-child(1),
@@ -117,6 +136,45 @@
 
     .arrow {
         display: block;
+    }
+
+    .announcementItem {
+        padding: 5px;
+    }
+
+    .announcementItem a {
+        display: block;
+        border: 1px solid #707070;
+        overflow: hidden;
+        padding: 0 0.5rem;
+    }
+
+    .announcementItem a span:nth-child(n){
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    .announcementItem a span:nth-child(1) {
+        display: none;
+        text-align: left;
+    }
+
+    .announcementItem a span:nth-child(3) {
+        text-align: right;
+        font-size: 0.9rem;
+    }
+
+    a.color_system {
+        background: #E8AB9E;
+    }
+
+    a.color_activity {
+        background: #9BC6E2;
+    }
+
+    a.color_message {
+        background: #8DE290;
     }
 
 }

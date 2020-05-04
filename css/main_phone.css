@@ -15,17 +15,42 @@
         z-index: 990;
     }
 
-    .sp_navBarLogo {
-        display: block;
-        width: 30%;
+    .navBar {
+        padding: 0;
     }
 
     .navBarIcon {
-        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        z-index: 15;
     }
 
-    .navBarIcon li {
-        box-sizing: border-box;
+    .sp_navBarLogo {
+        display: block;
+        width: 25%;
+    }
+
+    .navBarIcon ul {
+        width: calc(55% - 48px);
+    }
+
+    .sp_serchSpace {
+        width: 10%;
+        height: 1rem;
+    }
+
+    .menuIcon {
+        width: 50px;
+        display: block;
+        border-left: #333333 solid 2px;
+        padding: 0 12px;
+    }
+
+    .menuIcon img {
+        width: 24px;
     }
 
     .navBarTool {
@@ -34,7 +59,8 @@
     }
 
     .headerSpaceArea,
-    .copyrightText {
+    .copyrightText,
+    .pc {
         display: none;
     }
 
@@ -42,30 +68,17 @@
         display: none;
     }
 
-    .menuIcon img {
-        width: 24px;
-    }
-
-    .menuIcon {
-        display: block;
-        box-sizing: border-box;
-        border-left: #333333 solid 2px;
-        float: right;
-        padding: 0 10px;
-    }
-
     .searchBar {
         position: absolute;
-        width: 65%;
+        width: 80%;
         top: 0;
-        left: 50%;
-        height: 3rem;
-        transform: translateX(-50%);
+        right: 50px;
         box-shadow: none;
     }
 
     .searchArea {
         width: 100%;
+        display: block;
     }
 
     .search input,
@@ -73,6 +86,15 @@
         height: 2rem;
     }
 
+    .search {
+        width: calc(90% - 50px);
+        float: left;
+        display: none;
+    }
+
+    .searchIcon {
+        float: right;
+    }
 
 
 
