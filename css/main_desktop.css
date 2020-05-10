@@ -46,7 +46,7 @@ a {
     padding: 0 1rem;
 }
 
-.menuIcon, .sp_navBarLogo {
+.menuIcon, .sp_navBarLogo, .sp {
     display: none;
 }
 

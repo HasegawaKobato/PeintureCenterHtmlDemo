@@ -28,6 +28,10 @@
         z-index: 15;
     }
 
+    .sp {
+        display: block;
+    }
+
     .sp_navBarLogo {
         display: block;
         width: 25%;
@@ -55,7 +59,7 @@
 
     .navBarTool {
         position: fixed;
-        right: -100%;
+        /* right: -100%; */
     }
 
     .headerSpaceArea,
