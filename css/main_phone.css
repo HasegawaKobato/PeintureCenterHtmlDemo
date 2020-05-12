@@ -62,14 +62,38 @@
         width: 75%;
         height: 100vh;
         background: #B7D9B3;
+        box-shadow: -2px 0px 3px #555555;
         top: 0;
-        right: 0;
     }
 
-    .sp_lang, .personal, .navBarTool ul, .sp_tool span, .navBarTool li:not(.pc) {
+    .personal, .navBarTool ul, .navBarTool li:not(.pc) {
         display: block;
         position: relative;
         float: left;
+        width: 100%;
+        text-align: left;
+    }
+
+    .navBarTool li {
+        padding: 0.25rem 1rem;
+        font-size: 1.25rem;
+    }
+
+    .sp_lang {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .close {
+        width: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .close img {
         width: 100%;
     }
 
@@ -81,13 +105,40 @@
     }
 
     .sp_image {
-        width: 40%;
-        border-radius: 150%;
-        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 2px #888888;
+        margin: 0.5rem 1rem 0 0;
     }
 
     .sp_image img {
         width: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .sp_tool {
+        width: 50%;
+    }
+
+    .sp_tool div {
+        width: calc(50% + 2rem);
+        border: 1px solid #707070;
+        background: #FFFFFF;
+        text-align: center;
+        color: #1F5A1A;
+        margin: 0.5rem auto;
+        padding: 0 1rem;
+    }
+
+    .hr {
+        display: block;
+        width: 100%;
+        border-bottom: 2px solid #888888;
+        padding-right: 1rem;
     }
 
     .headerSpaceArea,

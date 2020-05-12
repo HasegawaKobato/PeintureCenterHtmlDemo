@@ -1,4 +1,6 @@
 window.onload = function (eve) {
+    document.querySelector('div.menuIcon').addEventListener('click', menu)
+    document.querySelector('div.close').addEventListener('click', menu)
     if (location.pathname.includes('message')) {
         let lis = document.querySelectorAll(".contactPerson>li");
         let back = document.querySelector(".thisContact span:nth-child(1)");
@@ -18,6 +20,11 @@ window.onload = function (eve) {
         let select = document.querySelector('.newSelect select');
         select.addEventListener('change', newWork)
     }
+}
+
+function menu(event) {
+    let navBarTool = document.querySelector('div.navBarTool');
+    navBarTool.setAttribute('style', `right:${getComputedStyle(navBarTool).right == '0px' ? '-80%' : '0px'}`)
 }
 
 function changePage(event) {

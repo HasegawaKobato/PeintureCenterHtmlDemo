@@ -57,6 +57,8 @@ a {
 
 .navBarTool {
     width: 70%;
+    z-index: 20;
+    right: -80%;
 }
 
 .navBarTool ul, .navBarIcon ul {
