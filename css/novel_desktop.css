@@ -22,7 +22,7 @@
     width: 100%;
 }
 
-.workTitle, .workDetail, .secNovelHead, .msgHead {
+.workTitle, .workDetail, .secNovelHead, .msgHead, .fontSize {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,7 @@
 
 .workContent {
     margin-top: 0.5rem;
+    transition: none;
 }
 
 .goto {
@@ -228,4 +229,18 @@
     margin: 1rem auto 2rem auto;
     background: #75A175;
     border: #365439 solid 1px;
+}
+
+.fontArea {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fontSize span {
+    width: 3.5rem;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    border: #365439 solid 1px;
+    background: #82B57E;
+    cursor: pointer;
 }

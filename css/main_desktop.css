@@ -57,8 +57,8 @@ a {
 
 .navBarTool {
     width: 70%;
-    z-index: 20;
-    right: -80%;
+    right: -100%;
+    z-index: 25;
 }
 
 .navBarTool ul, .navBarIcon ul {
@@ -93,6 +93,7 @@ a {
     height: 2.5rem;
     background: #D0E8CD;
     box-shadow: 0px 0px 3px #707070;
+    transition: none;
 }
 
 .search {

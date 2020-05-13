@@ -25,7 +25,7 @@ ol li {
 }
 
 .indent>li {
-    list-style-image: url(../img/listType.jpg);
+    list-style-image: url(./img/listType.jpg);
     list-style-position: inside;
     float: initial;
 }

@@ -66,7 +66,9 @@
         top: 0;
     }
 
-    .personal, .navBarTool ul, .navBarTool li:not(.pc) {
+    .personal,
+    .navBarTool ul,
+    .navBarTool li:not(.pc) {
         display: block;
         position: relative;
         float: left;
@@ -147,21 +149,24 @@
         display: none;
     }
 
-    .navBarIcon li:nth-child(1), .navBarIcon li:nth-child(2) {
+    .navBarIcon li:nth-child(1),
+    .navBarIcon li:nth-child(2) {
         display: none;
     }
 
     .searchBar {
         position: absolute;
-        width: 80%;
+        width: 10%;
         top: 0;
         right: 50px;
         box-shadow: none;
+        z-index: 20;
     }
 
     .searchArea {
         width: 100%;
-        display: block;
+        position: relative;
+        margin-top: 0.5rem;
     }
 
     .search input,
@@ -170,13 +175,27 @@
     }
 
     .search {
+        display: none;
         width: calc(90% - 50px);
         float: left;
         display: none;
     }
 
     .searchIcon {
-        float: right;
+        position: absolute;
+        top: 0.25rem;
+        right: calc(24px + 0.5rem);
+        margin: 0;
+        transition: none;
+    }
+
+    .mask {
+        display: block;
+        position: absolute;
+        width: 25vw;
+        height: 100vh;
+        top: 0;
+        left: -25vw;
     }
 
 
@@ -194,12 +213,16 @@
         font-size: 0.75rem;
     }
 
-    .footerTool li:nth-child(2), .footerTool li:nth-child(3), .footerTool li:nth-child(4), .footerTool li:nth-child(5) {
+    .footerTool li:nth-child(2),
+    .footerTool li:nth-child(3),
+    .footerTool li:nth-child(4),
+    .footerTool li:nth-child(5) {
         box-sizing: border-box;
         border-left: solid white 2px;
     }
-    
+
     .footerTool {
         padding-top: 5px;
     }
+
 }

@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>文畫中心 Peinture Center</title>
-    <link rel="stylesheet" type="text/css" href="../css/main_desktop.css">
-    <link rel="stylesheet" type="text/css" href="../css/main_tablet.css">
-    <link rel="stylesheet" type="text/css" href="../css/main_phone.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../css/main_fromScss.css"> -->
-    <link rel="stylesheet" type="text/css" href="../css/newChapter_desktop.css">
-    <link rel="stylesheet" type="text/css" href="../css/newChapter_phone.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_desktop.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_tablet.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_phone.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/main_fromScss.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/newNovel_desktop.css">
+    <link rel="stylesheet" type="text/css" href="./css/newNovel_phone.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
 
-    <script src="../js/tempJs.js"></script>
+    <script src="./js/tempJs.js"></script>
 </head>
 
 <body>
@@ -28,14 +28,14 @@
                         </div>
                     </div>
                     <ul>
-                        <li class="pc"><img src="../img/stamp.png" /></li>
-                        <li class="pc"><a href="./matchSearching.html"><img src="../img/support.png" /></a></li>
-                        <li><img src="../img/rss.png" /></li>
-                        <li><img src="../img/notification.png" /></li>
-                        <li><a href="./message.html"><img src="../img/email.png" /></a></li>
+                        <li class="pc"><img src="./img/stamp.png" /></li>
+                        <li class="pc"><a href="./matchSearching.html"><img src="./img/support.png" /></a></li>
+                        <li><img src="./img/rss.png" /></li>
+                        <li><img src="./img/notification.png" /></li>
+                        <li><a href="./message.html"><img src="./img/email.png" /></a></li>
                     </ul>
                     <span class="sp_serchSpace"></span>
-                    <div class="menuIcon"><img src="../img/menu.png" /></div>
+                    <div class="menuIcon"><img src="./img/menu.png" /></div>
                 </div>
                 <div class="navBarTool">
                     <div class="sp sp_lang">
@@ -52,12 +52,12 @@
                             <option>灰色</option>
                         </select>
                         <div class="close">
-                            <img src="../img/close.png">
+                            <img src="./img/close.png">
                         </div>
                     </div>
                     <div class="sp personal">
                         <div class="sp_image">
-                            <img src="../img/sumitaka.jpg">
+                            <img src="./img/sumitaka.jpg">
                         </div>
                         <div class="sp_tool">
                             <div>簽到</div>
@@ -72,14 +72,15 @@
                         <li class="sp"><span class="hr"></span></li>
                         <li><a href="./about.html">關於</a></li>
                         <li><a href="./contact.html">聯絡我們</a></li>
-                        <li class="sp"><a href="./contact.html">常見問題</a></li>
-                        <li class="sp"><a href="./contact.html">社群規範</a></li>
-                        <li class="sp"><a href="./contact.html">著作權聲明</a></li>
-                        <li class="sp"><a href="./contact.html">隱私權政策</a></li>
+                        <li class="sp"><a href="./qa.html">常見問題</a></li>
+                        <li class="sp"><a href="./communityGuidelines.html">社群規範</a></li>
+                        <li class="sp"><a href="./copyright.html">著作權聲明</a></li>
+                        <li class="sp"><a href="./privacyPolicy.html">隱私權政策</a></li>
                         <li><a href="./login.html">登出</a></li>
                         <li class="pc">色彩主題</li>
                         <li class="pc">語言</li>
                     </ul>
+                    <div class="mask sp"></div>
                 </div>
             </div>
             <div class="headerSpaceArea">
@@ -99,7 +100,7 @@
                         </select>
                     </div>
                     <div class="searchIcon">
-                        <img src="../img/search.png" />
+                        <img src="./img/search.png" />
                     </div>
                 </div>
             </div>
@@ -138,50 +139,40 @@
                         <option value="1">繪畫</option>
                     </select>
                 </div>
-                <div class="newChapterArea">
+                <div class="newNovelArea">
                     <div class="oneRow">
-                        <div class="location">
-                            <span>那些年，我們一起追的日劇</span>
-                            <span>→</span>
-                            <span>第三卷</span>
-                            <span>→</span>
-                        </div>
-                    </div>
-                    <div class="oneRow">
-                        <span class="fieldName">章節名稱</span>
+                        <span class="fieldName">作品名稱</span>
                         <input type="text">
-                    </div>
-                    <div class="oneRow">
-                        <span class="fieldName">連載狀況</span>
-                        <span class="serialStatus">
-                            <span>
-                                <input type="radio" name="serialStatus" value="0" checked>
-                                <label>連載中</label>
-                            </span>
-                            <span>
-                                <input type="radio" name="serialStatus" value="1">
-                                <label>完結</label>
-                            </span>
-                            <span>
-                                <input type="radio" name="serialStatus" value="2">
-                                <label>停更</label>
-                            </span>
-                        </span>
-                    </div>
-                    <div class="oneRow">
-                        <span class="fieldName">是否參與每日主題</span>
-                        <input type="checkbox">
                     </div>
                     <div class="oneRow">
                         <span class="fieldName">附件插圖</span>
                         <span class="browseButton">瀏覽...</span>
                     </div>
+                    <div class="oneRow">
+                        <span class="fieldName">作品類型</span>
+                        <select>
+                            <option>奇幻</option>
+                            <option>愛情</option>
+                            <option>科幻</option>
+                            <option>推理</option>
+                            <option>喜劇</option>
+                            <option>恐怖</option>
+                            <option>耽美</option>
+                            <option>武俠</option>
+                            <option>文學</option>
+                            <option>其他</option>
+                        </select>
+                    </div>
                     <div class="breakRow">
-                        <span class="fieldName">文章內容</span>
+                        <span class="fieldName">作品描述與介紹</span>
                         <textarea></textarea>
                     </div>
+                    <div class="oneRow">
+                        <span class="fieldName">作品標籤</span>
+                        <input type="text">
+                    </div>
                     <div class="postButtonArea">
-                        <span class="postButton"><a href="./novel.html">發表章節</a></span>
+                        <span class="postButton"><a href="./newWork.html">發表作品</a></span>
                     </div>
                 </div>
             </div>
@@ -194,9 +185,9 @@
                 </div>
                 <div class="footerIcon">
                     <ul>
-                        <li><img src="../img/email.png" /></li>
-                        <li><img src="../img/facebook.png" /></li>
-                        <li><img src="../img/instagram.png" /></li>
+                        <li><img src="./img/email.png" /></li>
+                        <li><img src="./img/facebook.png" /></li>
+                        <li><img src="./img/instagram.png" /></li>
                     </ul>
                 </div>
                 <div class="footerHr"></div>
