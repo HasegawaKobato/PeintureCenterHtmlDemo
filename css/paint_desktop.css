@@ -191,17 +191,7 @@
 
 .leaveAMessage {
     width: 100%;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
     min-height: 7rem;
     resize: none;
-}
-
-.submitMessage {
-    width: 100px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 2rem;
-    margin: 1rem auto 2rem auto;
-    background: #75A175;
-    border: #365439 solid 1px;
 }

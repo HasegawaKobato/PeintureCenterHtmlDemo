@@ -8,15 +8,15 @@
         margin: auto;
     }
 
-    .collection {
+    .contentBlock {
         background: #82B57E;
     }
 
-    .collection>ul {
+    .contentBlock>ul {
         overflow: hidden;
     }
 
-    .collection>ul>li {
+    .contentBlock>ul>li {
         width: 50%;
         position: relative;
         float: left;
