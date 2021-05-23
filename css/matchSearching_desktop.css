@@ -1,46 +1,11 @@
-.content {
-    display: block;
-    position: relative;
-    margin: 0 0 10px 0;
-}
-
-.mainContent {
-    width: 80%;
-    margin: auto;
-}
-
 .matchSearching, .conditions {
     margin: 20px 0;
     text-align: center;
 }
 
-.collection {
-    width: 100%;
-    box-shadow: 2px 0px 2px #DDDDDD;
-    border: 1px solid #707070;
-    border-radius: 0px 10px 10px 10px;
-    clear: both;
-}
-
 .tagArea div {
-    display: block;
-    position: relative;
-    float: left;
     width: 30%;
-    height: 2rem;
-    line-height: 2rem;
     margin-left: -5%;
-    color: #1F5A1A;
-    background: #D0E8CD;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-    z-index: 5;
-}
-
-.tagArea div:nth-child(1) {
-    margin: 0;
-    background: #75A47A;
-    color: #FFFFFF;
-    z-index: 10;
 }
 
 .conditions {

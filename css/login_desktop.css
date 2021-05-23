@@ -42,24 +42,8 @@
     align-items: center;
 }
 
-.buttonArea div:nth-child(1) {
-    width: 100px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 2rem;
-    margin: auto;
-    background: #82B57E;
-    border: #365439 solid 1px;
-}
-
-.buttonArea div:nth-child(2) {
-    width: 100px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 2rem;
-    margin: auto;
-    background: #75A175;
-    border: #365439 solid 1px;
+.submitButton {
+    padding: 5px 15px;
 }
 
 .forgetPassword_sp {

@@ -8,40 +8,12 @@
         margin: auto;
     }
 
-    .workTypes {
-        max-width: 100%;
-        overflow-x: scroll;
-    }
-
-    .workTypesArea {
-        width: max-content;
-    }
-
-    .workTypesArea span {
-        padding: 0 1rem;
-    }
-
     .tagArea div {
         width: 25%;
     }
 
-    .collection table,
     .skipPage {
         display: none;
-    }
-
-    .collection ul {
-        display: block;
-        width: 100%;
-        padding: 0 2.5%;
-    }
-
-    .collection ul li {
-        width: 100%;
-        margin-top: 10px;
-        padding: 5px;
-        background: #FFFFFF;
-        border: #707070 solid 1px;
     }
 
     .colIndexTitle {

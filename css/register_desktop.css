@@ -46,15 +46,6 @@
     border-right: 1px solid #707070;
 }
 
-.registerButton {
-    width: 100px;
-    color: #FFFFFF;
-    line-height: 2rem;
-    margin: auto;
-    background: #82B57E;
-    border: #365439 solid 1px;
-}
-
 .signInWith {
     width: 75%;
     margin: auto;

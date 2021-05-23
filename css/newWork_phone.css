@@ -3,26 +3,4 @@
         margin: 105px 0 10px auto;
     }
 
-    .new {
-        width: 95%;
-        margin: 65px auto 10px auto;
-    }
-
-    .subBar {
-        position: fixed;
-    }
-
-    .workTypes {
-        max-width: 100%;
-        overflow-x: scroll;
-    }
-
-    .workTypesArea {
-        width: max-content;
-    }
-
-    .workTypesArea span {
-        padding: 0 1rem;
-    }
-
 }
