@@ -39,11 +39,6 @@
     width: 70%;
 }
 
-.fieldName {
-    display: block;
-    width: 30%;
-}
-
 .breakRow textarea {
     width: 100%;
     min-height: 5rem;

@@ -1,4 +1,4 @@
-.new {
+.block60 {
     width: 60%;
     display: block;
     position: relative;
@@ -6,6 +6,31 @@
     min-height: calc(100vh - 17.5rem - 24px);
     text-align: center;
     overflow: hidden;
+}
+
+.block60Title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #414141;
+    margin: 20px 0;
+}
+
+.listInBlock,
+.listInBlock li {
+    text-align: left;
+    clear: both;
+    float: initial;
+}
+
+.listSubtitle {
+    color: #1F5A1A;
+    list-style-type: initial;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.alignLeft {
+    text-align: left;
 }
 
 .subBar {
@@ -69,7 +94,8 @@
     border-collapse: collapse;
 }
 
-.collection ul, .arrow {
+.collection ul,
+.arrow {
     display: none;
 }
 
@@ -89,6 +115,11 @@
 .collection tr:nth-child(1) td {
     background: #82B57E;
     border: none;
+}
+
+.fieldName {
+    display: block;
+    width: 30%;
 }
 
 .actionButton {
@@ -160,4 +191,22 @@
     align-items: center;
     width: 95%;
     margin: 0 auto;
+}
+
+.indent>li {
+    list-style-image: url(./img/listType.jpg);
+    list-style-position: inside;
+    float: initial;
+}
+
+span.color_system {
+    background: #E8AB9E;
+}
+
+span.color_activity {
+    background: #9BC6E2;
+}
+
+span.color_message {
+    background: #8DE290;
 }

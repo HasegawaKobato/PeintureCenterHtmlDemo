@@ -71,15 +71,3 @@
 .announcementItem a span:nth-child(3) {
     width: 10rem;
 }
-
-span.color_system {
-    background: #E8AB9E;
-}
-
-span.color_activity {
-    background: #9BC6E2;
-}
-
-span.color_message {
-    background: #8DE290;
-}

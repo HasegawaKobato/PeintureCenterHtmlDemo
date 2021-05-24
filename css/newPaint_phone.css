@@ -3,11 +3,6 @@
         margin: 105px 0 10px auto;
     }
 
-    .fieldName {
-        display: block;
-        width: 45%;
-    }
-    
     .oneRow input[type="text"] {
         width: 55%;
     }

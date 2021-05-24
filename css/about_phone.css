@@ -1,9 +1,5 @@
 @media only screen and (max-width: 768px) {
-    .about {
-        width: 95%;
-        margin: 65px auto 10px auto;
-    }
-    
+
     .listSubtitle {
         margin-left: 1rem;
     }

@@ -1,39 +1,3 @@
-.privacyPolicy {
-    width: 60%;
-    display: block;
-    position: relative;
-    margin: 0 auto 10px auto;
-    min-height: calc(100vh - 17.5rem - 24px);
-    text-align: center;
-}
-
-.privacyPolicyTitle {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #414141;
-    margin: 20px 0;
-}
-
-.begining, .privacyPolicyList {
-    text-align: left;
-}
-
-.indent li {
-    list-style-image: url(./img/listType.jpg);
-    list-style-position: inside;
-}
-
-.privacyPolicyList, .privacyPolicyList li {
-    clear: both;
-    float: initial;
-}
-
-.listSubtitle {
-    color: #1F5A1A;
-    list-style-type: initial;
-    font-size: 1rem;
-    font-weight: bolder;
-}
 
 ol li, .indent ol li {
     list-style: inherit;

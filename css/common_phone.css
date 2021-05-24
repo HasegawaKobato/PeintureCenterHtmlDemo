@@ -18,11 +18,15 @@
         border: #707070 solid 1px;
     }
 
-    .new {
+    .block60 {
         width: 95%;
         margin: 65px auto 10px auto;
     }
 
+    .fieldName {
+        width: 45%;
+    }
+    
     .subBar {
         position: fixed;
     }

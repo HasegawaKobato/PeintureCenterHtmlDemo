@@ -165,18 +165,4 @@
         display: none;
     }
 
-
-
-
-    tr.color_system {
-        background: #E8AB9E;
-    }
-    
-    tr.color_activity {
-        background: #9BC6E2;
-    }
-    
-    tr.color_message {
-        background: #8DE290;
-    }
 }

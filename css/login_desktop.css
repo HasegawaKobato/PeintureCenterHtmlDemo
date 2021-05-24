@@ -15,14 +15,6 @@
     margin: auto;
 }
 
-.loginTitle {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #414141;
-    margin: 20px 0;
-    text-align: center;
-}
-
 .loginForm input:not(.validateCode) {
     width: 100%;
 }

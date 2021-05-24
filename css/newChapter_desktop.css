@@ -47,11 +47,6 @@
     text-decoration: underline;
 }
 
-.fieldName {
-    display: block;
-    width: 30%;
-}
-
 .serialStatus {
     display: flex;
     justify-content: space-between;

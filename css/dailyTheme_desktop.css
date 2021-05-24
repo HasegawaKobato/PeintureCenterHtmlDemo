@@ -1,27 +1,3 @@
-.dailyTheme {
-    width: 60%;
-    display: block;
-    position: relative;
-    margin: 0 auto 10px auto;
-    text-align: center;
-}
-
-.dailyThemeTitle {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #414141;
-    margin: 20px 0;
-}
-
-.begining {
-    text-align: left;
-}
-
-.indent>li {
-    list-style-image: url(./img/listType.jpg);
-    list-style-position: inside;
-    float: initial;
-}
 
 .works {
     margin: 20px 0;

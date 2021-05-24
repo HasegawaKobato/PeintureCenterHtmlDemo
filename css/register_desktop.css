@@ -1,18 +1,3 @@
-.register {
-    width: 60%;
-    display: block;
-    position: relative;
-    margin: 0 auto 10px auto;
-    min-height: calc(100vh - 17.5rem - 24px);
-    text-align: center;
-}
-
-.registerTitle {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #414141;
-    margin: 20px 0;
-}
 
 .registerInputArea {
     height: 3rem;
@@ -29,20 +14,20 @@
     color: #1F5A1A;
 }
 
-.register table {
+.block60 table {
     margin: 10px auto;
     text-align: left;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
-.register table span:first-child {
+.block60 table span:first-child {
     color: #414141;
     padding: 5px;
     line-height: 2rem;
 }
 
-.register table tr td:nth-child(1) {
+.block60 table tr td:nth-child(1) {
     border-right: 1px solid #707070;
 }
 
