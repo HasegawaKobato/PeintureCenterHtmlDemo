@@ -204,6 +204,10 @@
     float: initial;
 }
 
+.textUnderline {
+    text-decoration: underline;
+}
+
 .flexBetween {
     display: flex;
     justify-content: space-between;
