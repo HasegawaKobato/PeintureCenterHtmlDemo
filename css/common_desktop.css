@@ -63,6 +63,11 @@
     z-index: 10;
 }
 
+.block {
+    margin: 20px 0;
+    text-align: center;
+}
+
 .contentBlock {
     width: 100%;
     box-shadow: 2px 0px 2px #DDDDDD;
@@ -197,6 +202,31 @@
     list-style-image: url(./img/listType.jpg);
     list-style-position: inside;
     float: initial;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tagStatus {
+    display: inline-block;
+    width: 7rem;
+    text-align: center;
+    color: #414141;
+    border: #707070 solid 1px;
+    word-break: keep-all;
+}
+
+.tagType {
+    padding: 0 1rem;
+    color: #414141;
+    border: #707070 solid 1px;
+}
+
+.sp {
+    display: none;
 }
 
 span.color_system {

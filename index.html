@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="文畫中心是一個創作平台，目的在結合繪師與作家的作品。在這個網站中，我們鼓勵所有創作者可以為其他創作者的作品進行二次創作。不只可以讓你的創意與想像參與在這部作品中，或許也能讓原作者因為你的創意而有不同的構想哦！">
+    <meta name="description"
+        content="文畫中心是一個創作平台，目的在結合繪師與作家的作品。在這個網站中，我們鼓勵所有創作者可以為其他創作者的作品進行二次創作。不只可以讓你的創意與想像參與在這部作品中，或許也能讓原作者因為你的創意而有不同的構想哦！">
     <title>文畫中心 Peinture Center</title>
     <link rel="stylesheet" type="text/css" href="./css/main_desktop.css">
     <link rel="stylesheet" type="text/css" href="./css/main_tablet.css">
     <link rel="stylesheet" type="text/css" href="./css/main_phone.css">
     <link rel="stylesheet" type="text/css" href="./css/common_desktop.css">
-<link rel="stylesheet" type="text/css" href="./css/common_phone.css">
+    <link rel="stylesheet" type="text/css" href="./css/common_phone.css">
     <!-- <link rel="stylesheet" type="text/css" href="./css/main_fromScss.css"> -->
     <link rel="stylesheet" type="text/css" href="./css/content_desktop.css">
     <link rel="stylesheet" type="text/css" href="./css/content_phone.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    
+
     <script src="./js/tempJs.js"></script>
 </head>
 
@@ -27,7 +28,7 @@
                 <div class="navBarIcon">
                     <div class="sp_navBarLogo">
                         <div class="sp_logoArea">
-    
+
                         </div>
                     </div>
                     <ul>
@@ -134,7 +135,7 @@
             </div>
 
             <div class="mainContent">
-                <div class="works">
+                <div class="block">
                     <div class="tagArea">
                         <div>最新作品</div>
                         <div>熱門作品</div>
@@ -268,7 +269,7 @@
                             <li>
                                 <a href="./novelIndex.html">
                                     <div class="colIndexTitle">
-                                        <span>奇幻</span>
+                                        <span class="tagType">奇幻</span>
                                         <span>對不起，謝謝</span>
                                         <span>澄鷹</span>
                                     </div>
@@ -288,7 +289,7 @@
                             <li>
                                 <a href="./novelIndex.html">
                                     <div class="colIndexTitle">
-                                        <span>奇幻</span>
+                                        <span class="tagType">奇幻</span>
                                         <span>對不起，謝謝</span>
                                         <span>澄鷹</span>
                                     </div>
@@ -308,7 +309,7 @@
                             <li>
                                 <a href="./novelIndex.html">
                                     <div class="colIndexTitle">
-                                        <span>奇幻</span>
+                                        <span class="tagType">奇幻</span>
                                         <span>對不起，謝謝</span>
                                         <span>澄鷹</span>
                                     </div>
@@ -328,7 +329,7 @@
                             <li>
                                 <a href="./novelIndex.html">
                                     <div class="colIndexTitle">
-                                        <span>奇幻</span>
+                                        <span class="tagType">奇幻</span>
                                         <span>對不起，謝謝</span>
                                         <span>澄鷹</span>
                                     </div>
@@ -364,7 +365,7 @@
                     </div>
                 </div>
 
-                <div class="authors">
+                <div class="block">
                     <div class="tagArea">
                         <div>活躍繪手</div>
                         <div>活躍寫手</div>
@@ -521,28 +522,34 @@
                     </div>
                 </div>
 
-                <div class="announcements">
+                <div class="block">
                     <div class="announcementTitle">公告</div>
                     <div class="announcementContent">
                         <div class="announcementItem">
                             <a href="./announcements.html" class="color_system">
-                                <span class="color_system">系統更新</span>
-                                <span>2020/01/31 13:00~20:00 停機維護</span>
-                                <span>2019/01/03 10:00</span>
+                                <div>
+                                    <span class="tagStatus color_system pc">系統更新</span>
+                                    <span>2020/01/31 13:00~20:00 停機維護</span>
+                                </div>
+                                <span class="timeStamp">2019/01/03 10:00</span>
                             </a>
                         </div>
                         <div class="announcementItem">
                             <a href="./announcements.html" class="color_activity">
-                                <span class="color_activity">活動</span>
-                                <span>2020/02/01 二創熱門作品獎勵翻倍</span>
-                                <span>2019/01/2 13:51</span>
+                                <div>
+                                    <span class="tagStatus color_activity pc">活動</span>
+                                    <span>2020/02/01 二創熱門作品獎勵翻倍</span>
+                                </div>
+                                <span class="timeStamp">2019/01/2 13:51</span>
                             </a>
                         </div>
                         <div class="announcementItem">
                             <a href="./announcements.html" class="color_message">
-                                <span class="color_message">訊息</span>
-                                <span>抽卡系統正式上線啦</span>
-                                <span>2019/01/01 00:00</span>
+                                <div>
+                                    <span class="tagStatus color_message pc">訊息</span>
+                                    <span>抽卡系統正式上線啦</span>
+                                </div>
+                                <span class="timeStamp">2019/01/01 00:00</span>
                             </a>
                         </div>
                     </div>

@@ -2,17 +2,13 @@
     .content {
         margin: 65px 0 10px auto;
     }
-    
-    .mainContent, .dailyTheme {
-        width: 95%;
-        margin: auto;
-    }
 
     .tagArea div {
         width: 50%;
     }
 
-    .collection table, .skipPage {
+    .collection table,
+    .skipPage {
         display: none;
     }
 
@@ -42,7 +38,7 @@
         align-items: flex-end;
     }
 
-    .works .colIndexTitle span:nth-child(1) {
+    .block .colIndexTitle span:nth-child(1) {
         width: 15%;
         padding: 0;
         color: #414141;
@@ -56,8 +52,8 @@
         font-weight: bolder;
         text-align: left;
     }
-    
-    .works .colIndexTitle span:nth-child(2) {
+
+    .block .colIndexTitle span:nth-child(2) {
         text-align: left;
         padding-left: 5px;
         width: 70%;
@@ -72,7 +68,7 @@
         font-size: 0.5rem;
     }
 
-    .works .colIndexTitle span:nth-child(3) {
+    .block .colIndexTitle span:nth-child(3) {
         width: 15%;
         text-align: right;
     }
@@ -99,7 +95,7 @@
         justify-content: center;
     }
 
-    .works .colInformation>div:nth-child(1) span:nth-child(1) {
+    .block .colInformation>div:nth-child(1) span:nth-child(1) {
         width: 40%;
         color: #1F5A1A;
         text-align: left;
@@ -128,7 +124,7 @@
         text-align: right;
     }
 
-    .works .colInformation>div:nth-child(2) span {
+    .block .colInformation>div:nth-child(2) span {
         text-decoration: underline;
     }
 
@@ -143,26 +139,6 @@
 
     .arrow {
         display: block;
-    }
-
-    .announcementTable {
-        border-collapse: separate;
-        border-spacing: 0 5px;
-    }
-
-    .announcementTable tr {
-        box-shadow: 2px 2px 2px #DDDDDD;
-    }
-
-    .announcementTable tr td {
-        position: relative;
-        float: left;
-        width: 100%;
-        padding: 0 5px;
-    }
-    
-    .announcementTable tr td:nth-child(1) {
-        display: none;
     }
 
 }

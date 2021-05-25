@@ -48,9 +48,6 @@
 }
 
 .serialStatus {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: #1F5A1A;
 }
 

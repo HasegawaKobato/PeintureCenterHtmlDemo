@@ -2,11 +2,6 @@
     width: 100%;
 }
 
-.works, .authors, .announcements {
-    margin: 20px 0;
-    text-align: center;
-}
-
 .themes {
     width: 100%;
     background: #D0E8CD;
@@ -55,19 +50,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.announcementItem a span:nth-child(1) {
-    width: 7rem;
-    border: 1px solid #707070;
-}
-
-.announcementItem a span:nth-child(2) {
-    width: calc(100% - 18rem);
-    text-align: left;
-    margin-left: 1rem;
-}
-
-.announcementItem a span:nth-child(3) {
-    width: 10rem;
 }

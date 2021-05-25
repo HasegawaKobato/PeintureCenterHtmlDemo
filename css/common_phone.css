@@ -1,5 +1,10 @@
 @media only screen and (max-width: 768px) {
 
+    .mainContent {
+        width: 95%;
+        margin: auto;
+    }
+
     .collection table {
         display: none;
     }
@@ -26,7 +31,7 @@
     .fieldName {
         width: 45%;
     }
-    
+
     .subBar {
         position: fixed;
     }
@@ -43,5 +48,26 @@
     .workTypesArea span {
         padding: 0 1rem;
     }
+
+    .timeStamp {
+        float: right;
+        text-align: right;
+        font-size: 0.9rem;
+    }
+
+    .pc {
+        display: none;
+    }
     
+    a.color_system {
+        background: #E8AB9E;
+    }
+
+    a.color_activity {
+        background: #9BC6E2;
+    }
+
+    a.color_message {
+        background: #8DE290;
+    }
 }

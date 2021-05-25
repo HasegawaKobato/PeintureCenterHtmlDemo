@@ -1,14 +1,10 @@
-.matchSearching, .conditions {
-    margin: 20px 0;
-    text-align: center;
-}
 
 .tagArea div {
     width: 30%;
     margin-left: -5%;
 }
 
-.conditions {
+.block {
     width: 100%;
     box-shadow: 2px 2px 2px #DDDDDD;
     border-radius: 10px 10px 0px 0px;

@@ -3,15 +3,3 @@
     text-align: left;
     overflow: hidden;
 }
-
-.announcementsStatus {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.announcementsStatus span:nth-child(1) {
-    padding: 0 2rem;
-    color: #414141;
-    border: #707070 solid 1px;
-}

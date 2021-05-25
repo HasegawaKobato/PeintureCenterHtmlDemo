@@ -3,11 +3,6 @@
         margin: 105px 0 10px auto;
     }
 
-    .mainContent {
-        width: 95%;
-        margin: auto;
-    }
-
     .tagArea div {
         width: 25%;
     }
@@ -24,15 +19,13 @@
         color: #414141;
     }
 
-    .works .colIndexTitle span:nth-child(1) {
+    .block .colIndexTitle span:nth-child(1) {
         width: 15%;
         padding: 0;
-        color: #414141;
         background: #FFFFAC;
-        border: #707070 solid 1px;
     }
 
-    .works .colIndexTitle span:nth-child(2) {
+    .block .colIndexTitle span:nth-child(2) {
         text-align: left;
         padding-left: 5px;
         width: 70%;
@@ -40,20 +33,20 @@
         font-weight: bolder;
     }
 
-    .works .colIndexTitle span:nth-child(3) {
+    .block .colIndexTitle span:nth-child(3) {
         width: 15%;
         text-align: right;
     }
 
-    .authors .colIndexTitle div:nth-child(1) span:nth-child(2) {
+    .block .colIndexTitle div:nth-child(1) span:nth-child(2) {
         font-size: 0.8rem;
     }
 
-    .authors .colInformation>div:nth-child(1) {
+    .block .colInformation>div:nth-child(1) {
         justify-content: space-between;
     }
 
-    .authors .colIndexTitle div:nth-child(1) span:nth-child(1) {
+    .block .colIndexTitle div:nth-child(1) span:nth-child(1) {
         color: #1F5A1A;
         font-weight: bolder;
     }
@@ -73,7 +66,7 @@
         justify-content: center;
     }
 
-    .works .colInformation>div:nth-child(1) span:nth-child(1) {
+    .block .colInformation>div:nth-child(1) span:nth-child(1) {
         width: 40%;
         color: #1F5A1A;
         text-align: left;
@@ -102,7 +95,7 @@
         text-align: right;
     }
 
-    .works .colInformation>div:nth-child(2) span {
+    .block .colInformation>div:nth-child(2) span {
         text-decoration: underline;
     }
 
@@ -119,22 +112,6 @@
         border: 1px solid #707070;
         overflow: hidden;
         padding: 0 0.5rem;
-    }
-
-    .announcementItem a span:nth-child(n){
-        width: 100%;
-        float: left;
-        margin: 0;
-    }
-
-    .announcementItem a span:nth-child(1) {
-        display: none;
-        text-align: left;
-    }
-
-    .announcementItem a span:nth-child(3) {
-        text-align: right;
-        font-size: 0.9rem;
     }
 
 }
