@@ -1,15 +1,3 @@
-
-.tagArea div {
-    width: 30%;
-    margin-left: -5%;
-}
-
-.informationArea {
-    width: 70%;
-    margin: 1rem auto;
-    color: #414141;
-}
-
 .image {
     position: relative;
     display: flex;
@@ -40,21 +28,6 @@
 
 .image>img {
     width: 100%;
-}
-
-.oneRow {
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-}
-
-.oneRow input[type="text"] {
-    width: 70%;
-}
-.oneRow select {
-    padding: 0 5px;
-    box-sizing: border-box;
-    color: #414141;
 }
 
 .remindAlign {

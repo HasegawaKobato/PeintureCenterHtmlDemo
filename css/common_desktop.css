@@ -8,11 +8,85 @@
     overflow: hidden;
 }
 
+.registerTable {
+    margin: 10px auto;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.registerTable span {
+    padding: 5px;
+    line-height: 2rem;
+}
+
+.registerTable span:first-child {
+    color: #414141;
+}
+
+.registerTable tr td:nth-child(1) {
+    border-right: 1px solid #707070;
+}
+
 .block60Title {
     font-size: 1.5rem;
     font-weight: bolder;
     color: #414141;
     margin: 20px 0;
+}
+
+.informationArea {
+    width: 70%;
+    margin: 1rem auto;
+    color: #414141;
+}
+
+.expandList {
+    width: 75%;
+    display: block;
+    position: relative;
+    margin: 20px auto 10px auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: left;
+}
+
+.expandListTitle {
+    padding: 0 10px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    background: #588154;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px #DDDDDD;
+}
+
+.expandListArea {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    background: #FBFBFB;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.contactTable {
+    margin: 10px auto;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.contactTable span {
+    padding: 5px;
+    line-height: 2rem;
+}
+
+.contactTable tr:not(:first-child) td {
+    border-top: 1px solid #707070;
+}
+
+.contactTable tr td:nth-child(1) {
+    border-right: 1px solid #707070;
 }
 
 .listInBlock,
@@ -44,7 +118,24 @@
     color: #2D548F;
 }
 
+.oneRow {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.oneRow input[type="text"] {
+    width: 70%;
+}
+.oneRow select {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #414141;
+}
+
 .tagArea div {
+    width: 30%;
+    margin-left: -5%;
     display: block;
     position: relative;
     float: left;
@@ -62,6 +153,19 @@
     color: #FFFFFF;
     z-index: 10;
 }
+
+/* ↓↓↓如果分頁不在第一位的樣式↓↓↓ */
+/* .tagArea div:nth-child(1) {
+    margin-left: 0;
+}
+
+.tagArea div:nth-child(2) {
+    margin-left: -5%;
+    background: #75A47A;
+    color: #FFFFFF;
+    z-index: 10;
+} */
+/* ↑↑↑如果分頁不在第一位的樣式↑↑↑ */
 
 .block {
     margin: 20px 0;
@@ -99,8 +203,7 @@
     border-collapse: collapse;
 }
 
-.collection ul,
-.arrow {
+.collection ul {
     display: none;
 }
 
@@ -125,6 +228,10 @@
 .fieldName {
     display: block;
     width: 30%;
+}
+
+.advise {
+    text-align: center;
 }
 
 .actionButton {
@@ -199,13 +306,18 @@
 }
 
 .indent>li {
-    list-style-image: url(./img/listType.jpg);
+    list-style-image: url(../img/listType.jpg);
     list-style-position: inside;
     float: initial;
 }
 
 .textUnderline {
     text-decoration: underline;
+}
+
+.nameTitle {
+    color: #1F5A1A;
+    font-weight: bolder;
 }
 
 .flexBetween {
@@ -227,6 +339,10 @@
     padding: 0 1rem;
     color: #414141;
     border: #707070 solid 1px;
+}
+
+.pc {
+    display: inline-block;
 }
 
 .sp {

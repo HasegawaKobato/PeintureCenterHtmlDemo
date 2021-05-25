@@ -1,9 +1,3 @@
-
-.tagArea div {
-    width: 30%;
-    margin-left: -5%;
-}
-
 .workItem {
     width: 100%;
     display: flex;
@@ -78,10 +72,6 @@
 
 .statusItem span:nth-child(2) {
     text-decoration: underline;
-}
-
-.arrow {
-    display: none;
 }
 
 .skipPage {

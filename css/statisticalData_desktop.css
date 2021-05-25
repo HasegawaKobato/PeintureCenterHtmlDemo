@@ -1,25 +1,4 @@
 
-.tagArea div {
-    width: 30%;
-    margin-left: -5%;
-}
-
-/* 如果分頁不在第一位的樣式 */
-.tagArea div:nth-child(1) {
-    margin: 0;
-}
-.tagArea div:nth-child(2) {
-    background: #75A47A;
-    color: #FFFFFF;
-    z-index: 10;
-}
-
-.informationArea {
-    width: 70%;
-    margin: auto;
-    color: #414141;
-}
-
 .informationTable {
     width: 100%;
     border-collapse: separate;

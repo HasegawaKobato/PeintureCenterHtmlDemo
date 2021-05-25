@@ -23,9 +23,25 @@
         border: #707070 solid 1px;
     }
 
+    .listSubtitle {
+        margin-left: 1rem;
+    }
+    
+    .informationArea {
+        width: 95%;
+    }
+
+    .oneRow input[type="text"] {
+        width: 55%;
+    }
+
     .block60 {
         width: 95%;
         margin: 65px auto 10px auto;
+    }
+
+    .tagArea div {
+        width: 50%;
     }
 
     .fieldName {
@@ -56,7 +72,11 @@
     }
 
     .pc {
-        display: none;
+        display: none !important; 
+    }
+    
+    .sp {
+        display: inline-block; 
     }
     
     a.color_system {

@@ -3,10 +3,6 @@
         margin: 65px 0 10px auto;
     }
 
-    .tagArea div {
-        width: 50%;
-    }
-
     .collection table,
     .skipPage {
         display: none;
@@ -135,10 +131,6 @@
     .authors .colInformation div span {
         color: #414141;
         text-decoration: underline;
-    }
-
-    .arrow {
-        display: block;
     }
 
 }

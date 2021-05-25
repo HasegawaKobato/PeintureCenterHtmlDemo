@@ -17,10 +17,6 @@
         float: left;
     }
 
-    .tagArea div {
-        width: 50%;
-    }
-
     .worksInformation {
         display: none;
     }
@@ -36,10 +32,6 @@
         height: min-content;
         border: none;
         box-sizing: border-box;
-    }
-
-    .arrow {
-        display: block;
     }
 
     .skipPage {

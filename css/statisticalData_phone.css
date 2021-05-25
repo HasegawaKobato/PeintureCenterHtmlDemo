@@ -3,15 +3,6 @@
         margin: 65px 0 10px auto;
     }
 
-    .tagArea div {
-        width: 50%;
-    }
-
-    .informationArea {
-        width: 95%;
-        margin: 0.25rem auto;
-    }
-
     .informationTable {
         border-collapse: collapse;
     }
