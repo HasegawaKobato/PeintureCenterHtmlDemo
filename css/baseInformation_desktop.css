@@ -8,40 +8,11 @@
     box-shadow: 0px 0px 2px 2px #DDDDDD;
 }
 
-.editIcon {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid #000000;
-    background: #D9D9D9;
-    right: 1rem;
-    bottom: 1rem;
-}
-
-.editIcon img {
-    width: 24px;
-}
-
 .image>img {
     width: 100%;
-}
-
-.remindAlign {
-    width: 80%;
-    justify-content: space-between;
 }
 
 .fieldName {
     color: #1F5A1A;
     text-align: left;
-}
-
-.breakRow textarea {
-    width: 100%;
-    min-height: 5rem;
-    resize: vertical;
 }

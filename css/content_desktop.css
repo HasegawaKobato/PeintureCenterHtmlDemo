@@ -1,53 +1,5 @@
-.subBar {
-    width: 100%;
-}
-
-.themes {
-    width: 100%;
-    background: #D0E8CD;
-    text-align: center;
-    color: #2D548F;
-}
-
-.skipPage {
-    display: block;
-}
 
 .tagArea div {
     width: 15%;
     margin-left: -10px;
-}
-
-.announcements {
-    width: 100%;
-    box-shadow: 2px 0px 2px #DDDDDD;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.announcementTitle {
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-    background: #588154;
-    font-weight: bolder;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.announcementContent {
-    overflow: hidden;
-    color: #414141;
-}
-
-.announcementItem {
-    position: relative;
-    display: block;
-    float: left;
-    width: 100%;
-    padding: 1rem;
-}
-
-.announcementItem a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }

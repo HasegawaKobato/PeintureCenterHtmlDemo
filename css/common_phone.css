@@ -23,10 +23,18 @@
         border: #707070 solid 1px;
     }
 
+    .colIndexTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 5px;
+        border-bottom: #707070 solid 1px;
+        color: #414141;
+    }
+
     .listSubtitle {
         margin-left: 1rem;
     }
-    
+
     .informationArea {
         width: 95%;
     }
@@ -49,7 +57,9 @@
     }
 
     .subBar {
+        top: 48px;
         position: fixed;
+        z-index: 990;
     }
 
     .workTypes {
@@ -66,19 +76,42 @@
     }
 
     .timeStamp {
-        float: right;
         text-align: right;
         font-size: 0.8rem;
     }
 
+    /* 唯一 */
+
+    .remindAlign {
+        width: 100%;
+    }
+
+    .communityGuidelines {
+        width: 95%;
+        margin: 65px auto 10px auto;
+    }
+    
+    .announcementItem {
+        padding: 5px;
+    }
+
+    .announcementItem a {
+        display: block;
+        border: 1px solid #707070;
+        overflow: hidden;
+        padding: 0 0.5rem;
+    }
+
+    /* 唯一 */
+
     .pc {
-        display: none !important; 
+        display: none !important;
     }
-    
+
     .sp {
-        display: inline-block; 
+        display: inline-block;
     }
-    
+
     a.color_system {
         background: #E8AB9E;
     }

@@ -1,15 +1,6 @@
-.novel {
-    width: 60%;
-    display: block;
-    position: relative;
-    margin: 0 auto 10px auto;
-    min-height: calc(100vh - 17.5rem - 24px);
-    overflow: hidden;
-    text-align: center;
-    color: #414141;
-}
 
-.workArea, .fourmArea {
+.workArea,
+.fourmArea {
     margin-top: 1rem;
 }
 
@@ -27,7 +18,8 @@
     border-bottom: 1px solid #707070;
 }
 
-.workTitle span:nth-child(1), .blockTitle {
+.workTitle span:nth-child(1),
+.blockTitle {
     font-size: 1.25rem;
     font-weight: bolder;
     color: #1F5A1A;
@@ -37,7 +29,10 @@
     text-decoration: underline;
 }
 
-.like, .newIdea, .secWorkArea, .secPaint {
+.like,
+.newIdea,
+.secWorkArea,
+.secPaint {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +52,8 @@
     height: 24px;
 }
 
-.likeButton img, .workContent img {
+.likeButton img,
+.workContent img {
     width: 100%;
 }
 
@@ -95,7 +91,8 @@
     width: max-content;
 }
 
-.secPaint, .secNovel {
+.secPaint,
+.secNovel {
     height: 150px;
     margin: 0 0.5rem;
     border: #707070 solid 1px;

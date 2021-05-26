@@ -1,15 +1,7 @@
-.novelIndex {
-    width: 60%;
-    display: block;
-    position: relative;
-    margin: 0 auto 10px auto;
-    min-height: calc(100vh - 17.5rem - 24px);
-    overflow: hidden;
-    text-align: center;
-    color: #414141;
-}
 
-.cover, .novelDetail, .indexArea {
+.cover,
+.novelDetail,
+.indexArea {
     width: 100%;
     display: block;
     position: relative;
@@ -44,7 +36,8 @@
     text-align: center;
 }
 
-.novelTitle span:nth-child(2), .indexText {
+.novelTitle span:nth-child(2),
+.indexText {
     font-size: 1.25rem;
     font-weight: bolder;
     text-align: left;
@@ -58,6 +51,7 @@
 .novelAuthor {
     text-align: right;
 }
+
 .novelDescription {
     width: 100%;
     text-align: left;
@@ -72,7 +66,10 @@
     text-decoration: underline;
 }
 
-.bookUl, .bookLi, .chapterUl, .chapterLi {
+.bookUl,
+.bookLi,
+.chapterUl,
+.chapterLi {
     width: 100%;
     overflow: hidden;
 }
@@ -85,7 +82,8 @@
     margin-top: 0.5rem;
 }
 
-.bookArea, .chapterArea {
+.bookArea,
+.chapterArea {
     width: 70%;
     border: 1px solid #707070;
     padding: 5px 10px;

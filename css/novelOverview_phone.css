@@ -53,10 +53,6 @@
         font-size: 1.25rem;
     }
 
-    .skipPage {
-        display: none;
-    }
-
     .workStatus, .workTitleArea span:nth-child(1) {
         padding: 0 0.5rem;
     }

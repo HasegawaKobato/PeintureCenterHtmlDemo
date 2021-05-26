@@ -9,12 +9,6 @@
         z-index: 999;
     }
 
-    .subBar {
-        top: 48px;
-        position: fixed;
-        z-index: 990;
-    }
-
     .navBar {
         padding: 0;
     }

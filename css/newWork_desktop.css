@@ -1,21 +1,3 @@
-.newSelect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-    color: #1F5A1A;
-    margin: 20px 0;
-}
-
-.newSelect span {
-    margin-right: 1rem;
-}
-
-.newSelect select {
-    padding: 0 5px;
-    box-sizing: border-box;
-    color: #414141;
-}
 
 .workItem {
     width: 100%;

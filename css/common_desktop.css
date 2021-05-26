@@ -133,6 +133,50 @@
     color: #414141;
 }
 
+.newSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #1F5A1A;
+    margin: 20px 0;
+}
+
+.newSelect span {
+    margin-right: 1rem;
+}
+
+.newSelect select {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #414141;
+}
+
+.breakRow textarea {
+    width: 100%;
+    min-height: 5rem;
+    resize: vertical;
+}
+
+div.postButtonArea {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.newWorkArea {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: left;
+    color: #414141;
+}
+
+.newWorkArea>div {
+    margin: 10px 0;
+}
+
 .tagArea div {
     width: 30%;
     margin-left: -5%;
@@ -311,8 +355,15 @@
     float: initial;
 }
 
+ol li, .indent ol li {
+    list-style: inherit;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
 .textUnderline {
     text-decoration: underline;
+    color: #1F5A1A;
 }
 
 .nameTitle {
@@ -339,7 +390,95 @@
     padding: 0 1rem;
     color: #414141;
     border: #707070 solid 1px;
+    word-break: keep-all;
 }
+
+/* 唯一 */
+
+.linkStyle {
+    text-decoration: underline;
+    color: #0000FF;
+}
+
+.announcementsContent {
+    text-align: left;
+    overflow: hidden;
+}
+
+.editIcon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: #D9D9D9;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.editIcon img {
+    width: 24px;
+}
+
+.remindAlign {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.communityGuidelinesCategory, .communityGuidelinesCategoryTitle, .communityGuidelines_Q {
+    width: 100%;
+}
+
+.communityGuidelinesItem {
+    font-weight: bolder;
+    color: #1F5A1A;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.communityGuidelinesItem ul {
+    clear: both;
+}
+
+.communityGuidelinesItem li {
+    float: initial;
+    list-style-type: initial;
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+
+.announcementTitle {
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    background: #588154;
+    font-weight: bolder;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.announcementContent {
+    overflow: hidden;
+    color: #414141;
+}
+
+.announcementItem {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 1rem;
+}
+
+.announcementItem a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 唯一 */
 
 .pc {
     display: inline-block;

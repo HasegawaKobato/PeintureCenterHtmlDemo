@@ -6,6 +6,10 @@
     transition: 0.3s;
 }
 
+body {
+    color: #414141;
+}
+
 li {
     position: relative;
     float: left;
@@ -23,9 +27,11 @@ a {
     margin: auto;
 }
 
-.header, .navBar, .searchBar {
+.header,
+.navBar,
+.searchBar {
     width: 100%;
-    z-index: 10;    
+    z-index: 10;
     text-align: center;
 }
 
@@ -33,10 +39,11 @@ a {
     width: 50%;
 }
 
-.navBar, .searchArea {
+.navBar,
+.searchArea {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .navBar {
@@ -46,7 +53,9 @@ a {
     padding: 0 1rem;
 }
 
-.menuIcon, .sp_navBarLogo, .sp {
+.menuIcon,
+.sp_navBarLogo,
+.sp {
     display: none;
 }
 
@@ -61,7 +70,8 @@ a {
     z-index: 25;
 }
 
-.navBarTool ul, .navBarIcon ul {
+.navBarTool ul,
+.navBarIcon ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +86,8 @@ a {
     font-weight: bolder;
 }
 
-.navBarIcon img, .searchIcon img {
+.navBarIcon img,
+.searchIcon img {
     width: 24px;
     cursor: pointer;
 }
@@ -109,7 +120,8 @@ a {
     width: 30%;
 }
 
-.search input, .search select {
+.search input,
+.search select {
     box-sizing: border-box;
     height: 1.5rem;
 }
@@ -122,14 +134,21 @@ a {
     width: 10%;
     margin: 10px 0 0 5px;
 }
+
 /* ========↑↑↑=header=↑↑↑========= */
-.header, .content, .footer {
+.header,
+.content,
+.footer {
     display: block;
     position: relative;
 }
+
 /* ========↓↓↓=footer=↓↓↓========= */
-.footer, .slogan, .footerIcon, .footerHr {
-    width: 100%;    
+.footer,
+.slogan,
+.footerIcon,
+.footerHr {
+    width: 100%;
     text-align: center;
 }
 
