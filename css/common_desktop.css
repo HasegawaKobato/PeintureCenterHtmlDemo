@@ -127,6 +127,7 @@
 .oneRow input[type="text"] {
     width: 70%;
 }
+
 .oneRow select {
     padding: 0 5px;
     box-sizing: border-box;
@@ -214,6 +215,38 @@ div.postButtonArea {
 .block {
     margin: 20px 0;
     text-align: center;
+}
+
+.grayBlock {
+    width: 100%;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    border-radius: 10px 10px 0px 0px;
+    background: #FBFBFB;
+}
+
+.conditionTitle {
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    background: #588154;
+    font-weight: bolder;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conditionContent {
+    margin: 0 1rem;
+}
+
+.conditionTable {
+    width: 50%;
+    color: #1F5A1A;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.label {
+    color: #414141;
 }
 
 .contentBlock {
@@ -355,7 +388,8 @@ div.postButtonArea {
     float: initial;
 }
 
-ol li, .indent ol li {
+ol li,
+.indent ol li {
     list-style: inherit;
     list-style-position: inside;
     list-style-image: none;
@@ -393,6 +427,191 @@ ol li, .indent ol li {
     word-break: keep-all;
 }
 
+.regularButton {
+    width: 200px;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    border: 1px solid #707070;
+    background: #2D548F;
+}
+
+.workArea,
+.fourmArea {
+    margin-top: 1rem;
+}
+
+.chapterInfo,
+.workContent {
+    width: 100%;
+    text-align: left;
+    margin-top: 0.5rem;
+    transition: none;
+}
+
+.workHead {
+    width: 100%;
+}
+
+.workTitle {
+    border-bottom: 1px solid #707070;
+}
+
+.workTitle span:nth-child(1),
+.blockTitle {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #1F5A1A;
+}
+
+.workInformation span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.like,
+.newIdea,
+.illustrateArea,
+.illustrate,
+.secWorkArea,
+.secPaint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like {
+    margin: 1rem auto;
+}
+
+.like span:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.likeButton {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.likeButton img,
+.workContent img {
+    width: 100%;
+}
+
+.block:not(:last-child) {
+    overflow: hidden;
+    border-bottom: 1px solid #707070;
+}
+
+.tags span {
+    position: relative;
+    float: left;
+    margin: 0.25rem 0.5rem;
+}
+
+.illustrateScroll,
+.secWorkScroll {
+    padding: 0.5rem 0;
+    overflow-x: scroll;
+}
+
+.illustrateArea,
+.secWorkArea {
+    width: max-content;
+}
+
+.illustrate,
+.secPaint,
+.secNovel {
+    height: 150px;
+    margin: 0 0.5rem;
+    border: #707070 solid 1px;
+    overflow: hidden;
+}
+
+.illustrate img,
+.secPaint img {
+    width: 150px;
+}
+
+.secNovel {
+    width: 300px;
+    background: #D0E8CD;
+    padding: 0 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px #DDDDDD;
+}
+
+.secNovelContent {
+    max-height: 6rem;
+    text-align: left;
+    overflow-y: hidden;
+}
+
+.secNovelPopularity {
+    text-align: right;
+}
+
+.secNovelPopularity span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.msgBoard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: #707070 solid 1px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    box-sizing: border-box;
+}
+
+.msgBoard:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.authorImage {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: #707070 solid 1px;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    overflow: hidden;
+}
+
+.authorImage img {
+    width: 100%;
+}
+
+.msgArea {
+    width: calc(100% - 100px);
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.msgHead {
+    border-bottom: #707070 solid 1px;
+}
+
+.msgContent {
+    text-align: left;
+}
+
+.deleteButton {
+    float: right;
+    border: #707070 solid 1px;
+    padding: 0 5px;
+    background: #E8AB9E;
+}
+
+.leaveAMessage {
+    width: 100%;
+    margin-bottom: 1rem;
+    min-height: 7rem;
+    resize: none;
+}
+
 /* 唯一 */
 
 .linkStyle {
@@ -428,7 +647,9 @@ ol li, .indent ol li {
     justify-content: space-between;
 }
 
-.communityGuidelinesCategory, .communityGuidelinesCategoryTitle, .communityGuidelines_Q {
+.communityGuidelinesCategory,
+.communityGuidelinesCategoryTitle,
+.communityGuidelines_Q {
     width: 100%;
 }
 
@@ -478,6 +699,396 @@ ol li, .indent ol li {
     align-items: center;
 }
 
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #414141;
+}
+
+.loginArea {
+    width: 80%;
+    margin: auto;
+}
+
+.loginForm input:not(.validateCode) {
+    width: 100%;
+}
+
+.loginForm div {
+    margin: 10px auto;
+}
+
+.half {
+    width: 50%;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgetPassword_sp {
+    display: none;
+}
+
+.forgetPassword {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.signInWith {
+    width: 100%;
+}
+
+.signInWith img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.matchInformation {
+    width: 100%;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.matchInformation span:nth-child(1) {
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    color: #1F5A1A;
+}
+
+.matchInformation span:nth-child(2) {
+    display: block;
+    width: 100%;
+}
+
+.im {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #1F5A1A;
+    margin: 20px 0;
+}
+
+.im span {
+    margin-right: 1rem;
+}
+
+.im select {
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #414141;
+}
+
+.submitModify, .uploadWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introductionBlock {
+    width: 100%;
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+.introductionBlock>span {
+    font-size: 1.25rem;
+    color: #1F5A1A;
+    padding-left: 1rem;
+}
+
+.introductionBlock>textarea {
+    width: 100%;
+    height: 4rem;
+    resize: none;
+}
+
+.uploadWork>textarea {
+    width: 100%;
+    height: 10rem;
+    resize: none;
+}
+
+.uploadWork>textarea::placeholder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 9.5rem;
+}
+
+.searchingArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    color: #414141;
+}
+
+.searchingText span{
+    display: block;
+    width: 100%;
+}
+
+.searchingText span:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.searchingText span:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.location {
+    font-size: 0.8rem;
+}
+
+.location>span:nth-child(1), .location>span:nth-child(3) {
+    text-decoration: underline;
+}
+
+.serialStatus {
+    color: #1F5A1A;
+}
+
+.serialStatus>span {
+    margin-right: 1rem;
+}
+
+.workItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #707070;
+    background: #FFFFFF;
+}
+
+.worksImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #707070;
+}
+
+.worksImg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.worksInformation {
+    width: calc(100% - 200px);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.worksContent {
+    width: 100%;
+    height: 6rem;
+    font-size: 1rem;
+    resize: none;
+    border: none;
+    outline: none;
+    color: #414141;
+    overflow: hidden;
+}
+
+.worksContent:disabled {
+    background: none;
+}
+
+.workDetails {
+    color: #414141;
+}
+
+.statusItem {
+    padding: 0 0.5rem;
+}
+
+.statusItem span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.overViewTitle {
+    margin-left: 0.5rem;
+    color: #1F5A1A;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.newWorkItem {
+    width: 100%;
+    display: block;
+    border-bottom: 1px dashed #707070;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.newWorkItem>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #414141;
+    margin: 5px 0;
+}
+
+.newWorkItem>div>span:nth-child(1) {
+    width: calc(100% - 24px);
+    display: block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.newWorkItem>div>span:nth-child(2) {
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px #707070;
+}
+
+.newWorkItem img {
+    width: 100%;
+}
+
+.workName>span, .workBook>span, .workChapter>span {
+    display: block;
+    width: 33.33%;
+    float: left;
+    min-height: 1rem;
+}
+
+.goto {
+    width: fit-content;
+    margin: 2rem auto 0 auto;
+    overflow: hidden;
+}
+
+.previousButton,
+.nextButton,
+.toIndexButton {
+    width: 120px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    margin: 0 0.9rem;
+    border: #365439 solid 1px;
+}
+
+.previousButton,
+.nextButton {
+    background: #82B57E;
+}
+
+.toIndexButton {
+    background: #75A175;
+}
+
+.fontArea {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fontSize span {
+    width: 3.5rem;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    border: #365439 solid 1px;
+    background: #82B57E;
+    cursor: pointer;
+}
+
+.contentHead_sp {
+    display: none;
+}
+
+.novelChapter {
+    color: #1F5A1A;
+}
+
+.finished {
+    background: #E8AB9E;
+}
+
+.qaCategory, .qa_Q, .qa_A {
+    width: 100%;
+}
+
+.qaItem {
+    width: 98%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0 auto 10px auto;
+    border-bottom: 1px solid #707070;
+    text-align: left;
+}
+
+.qa_Q {
+    font-weight: bolder;
+    color: #1F5A1A;
+}
+
+.qa_A {
+    counter-reset: #414141;
+    text-align: center;
+}
+
+.qa_A img {
+    width: 75%;
+    box-shadow: 2px 2px 2px #DDDDDD;
+}
+
+.qa_A *:not(img) {
+    text-align: left;
+}
+
+.registerInputArea {
+    height: 3rem;
+}
+
+.registerHint_sp {
+    display: none;
+    font-size: 0.75rem;
+    color: #414141;    
+}
+
+.registerHint {
+    font-size: 0.75rem;
+    color: #1F5A1A;
+}
+
+.informationTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1rem;
+}
+
+.informationTable tr td:nth-child(1) {
+    text-align: right;
+    color: #1F5A1A;
+}
+
+.informationTable tr td:nth-child(2) {
+    text-align: left;
+    color: #414141;
+}
 /* 唯一 */
 
 .pc {

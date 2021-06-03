@@ -80,6 +80,34 @@
         font-size: 0.8rem;
     }
 
+    .conditionTable {
+        width: 100%;
+    }
+
+    .novel {
+        width: 95%;
+        margin: 65px auto 10px auto;
+    }
+
+    .workArea {
+        margin-top: 0;
+    }
+
+    .msgHead span {
+        width: 100%;
+    }
+
+    .msgHead span:nth-child(1) {
+        text-align: left;
+    }
+    .msgHead span:nth-child(2) {
+        text-align: right;
+    }
+
+    .expandList {
+        width: 95%;
+        margin: 65px auto 10px auto;
+    }
     /* 唯一 */
 
     .remindAlign {
@@ -100,6 +128,125 @@
         border: 1px solid #707070;
         overflow: hidden;
         padding: 0 0.5rem;
+    }
+
+    .login {
+        display: block;
+        margin: 65px 0 10px 0;
+    }
+
+    .loginTitle {
+        margin: 0;
+    }
+
+    .loginArea {
+        width: 95%;
+    }
+
+    .half {
+        width: 100%;
+    }
+
+    .validateCode {
+        width: 8rem;
+        float: right;
+    }
+    
+    .forgetPassword_sp {
+        display: initial;
+        float: right;
+        font-size: 0.8rem;
+        line-height: 2rem;
+    }
+
+    .forgetPassword {
+        display: none;
+    }
+    
+    .introductionBlock>span {
+        padding: 0;
+    }
+    
+    .workTitleArea span:nth-child(1) {
+        padding: 0 0.5rem;
+    }
+    
+    .previousButton,
+    .nextButton,
+    .toIndexButton {
+        width: 90px;
+        margin: 0 5px;
+    }
+
+    .contentHead_sp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #414141;
+    }
+
+    .contentHead_sp>.novelChapter {
+        font-size: 1.25rem;
+    }
+    .register {
+        width: 100%;
+        margin: 65px 0 10px 0;
+    }
+
+    .register table {
+        width: 100%;
+        margin: 0;
+        border-spacing: 5px;
+    }
+
+    .register table tr td {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+    .register table tr:not(:first-child) td {
+        border: none;
+    }
+    
+    .register table tr td:nth-child(1) {
+        border: none;
+        font-weight: bolder;
+    }
+
+    .registerInputArea {
+        height: auto;
+    }
+
+    .registerHint_sp {
+        display: initial;
+    }
+
+    .registerHint {
+        display: none;
+    }
+
+    .registerInput {
+        width: 100%;
+    }
+
+    .informationTable {
+        border-collapse: collapse;
+    }
+
+    .informationTable tr:not(:last-child) {
+        border-bottom: 1px dashed #707070;
+    }
+
+    .informationTable td {
+        width: 100%;
+        display: block;
+        position: relative;
+        float: left;
+    }
+
+    .informationTable tr td:nth-child(1) {
+        text-align: left;
     }
 
     /* 唯一 */

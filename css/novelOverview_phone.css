@@ -29,17 +29,6 @@
          height: 4.5rem;
     }
 
-    .contentHead_sp {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: #414141;
-    }
-
-    .contentHead_sp>.novelChapter {
-        font-size: 1.25rem;
-    }
-
     .workDetails {
         width: 100%;
         display: flex;
@@ -53,7 +42,4 @@
         font-size: 1.25rem;
     }
 
-    .workStatus, .workTitleArea span:nth-child(1) {
-        padding: 0 0.5rem;
-    }
 }

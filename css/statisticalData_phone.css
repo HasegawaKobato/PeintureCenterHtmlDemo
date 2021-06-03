@@ -3,23 +3,4 @@
         margin: 65px 0 10px auto;
     }
 
-    .informationTable {
-        border-collapse: collapse;
-    }
-
-    .informationTable tr:not(:last-child) {
-        border-bottom: 1px dashed #707070;
-    }
-
-    .informationTable td {
-        width: 100%;
-        display: block;
-        position: relative;
-        float: left;
-    }
-
-    .informationTable tr td:nth-child(1) {
-        text-align: left;
-    }
-
 }
