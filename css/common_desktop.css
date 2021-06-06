@@ -1,3 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+body {
+    color: #414141;
+}
+
+li {
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========↓↓↓=header=↓↓↓========= */
+.whole {
+    width: 75%;
+    margin: auto;
+}
+
+.header,
+.navBar,
+.searchBar {
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+}
+
+.searchArea {
+    width: 50%;
+}
+
+.navBar,
+.searchArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar {
+    height: 3rem;
+    background: #D0E8CD;
+    box-shadow: 0px 0px 3px #707070;
+    padding: 0 1rem;
+}
+
+.menuIcon,
+.sp_navBarLogo,
+.sp {
+    display: none;
+}
+
+.navBarIcon {
+    width: calc(30% - 1rem);
+    margin-right: 1rem;
+}
+
+.navBarTool {
+    width: 70%;
+    right: -100%;
+    z-index: 25;
+}
+
+.navBarTool ul,
+.navBarIcon ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarTool li {
+    color: #1F5A1A;
+    cursor: pointer;
+}
+
+.navBarTool li:nth-child(1) {
+    font-weight: bolder;
+}
+
+.navBarIcon img,
+.searchIcon img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.headerSpaceArea {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    background: #D0E8CD;
+    box-shadow: 0px 0px 3px #707070;
+    transition: none;
+}
+
+.search {
+    width: 90%;
+    display: flex;
+}
+
+.search input {
+    width: 70%;
+}
+
+.search select {
+    width: 30%;
+}
+
+.search input,
+.search select {
+    box-sizing: border-box;
+    height: 1.5rem;
+}
+
+.search select {
+    margin: 0 0 0 -1px;
+}
+
+.searchIcon {
+    width: 10%;
+    margin: 10px 0 0 5px;
+}
+
+/* ========↑↑↑=header=↑↑↑========= */
+.header,
+.content,
+.footer {
+    display: block;
+    position: relative;
+}
+
+/* ========↓↓↓=footer=↓↓↓========= */
+.footer,
+.slogan,
+.footerIcon,
+.footerHr {
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    background: #82B57E;
+    color: white;
+    box-shadow: 0px 0px 3px #707070;
+    overflow: hidden;
+}
+
+.innerFooter {
+    width: 70%;
+    margin: auto;
+}
+
+.slogan {
+    letter-spacing: 5pt;
+    line-height: 2rem;
+}
+
+.footerIcon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerIcon img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.footerHr {
+    border-top: 1px solid #333333;
+}
+
+.copyrightText {
+    display: block;
+    position: relative;
+    float: left;
+    width: 25%;
+    font-size: 0.5rem;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 2rem;
+}
+
+.footerTool {
+    display: block;
+    position: relative;
+    float: right;
+    width: 75%;
+}
+
+.footerTool li {
+    width: 20%;
+    cursor: pointer;
+}
+
+/* ========↑↑↑=footer=↑↑↑========= */
+
+
+/* ======================================== */
+/* ======================================== */
 .block60 {
     width: 60%;
     display: block;
@@ -249,7 +465,7 @@ div.postButtonArea {
     color: #414141;
 }
 
-.contentBlock {
+.contentBlock, .overviewWorkBlock {
     width: 100%;
     box-shadow: 2px 0px 2px #DDDDDD;
     border: 1px solid #707070;
@@ -257,11 +473,15 @@ div.postButtonArea {
     clear: both;
 }
 
-.contentBlock>ul>li {
+.contentBlock>ul>li, .overviewWorkBlock>ul>li {
     float: inherit;
     padding: 10px;
     box-sizing: border-box;
     text-align: left;
+}
+
+.overviewWorkBlock {
+    background: #82B57E;
 }
 
 .collection {
@@ -326,7 +546,7 @@ div.postButtonArea {
     color: #FFFFFF;
     text-align: center;
     margin: auto;
-    padding: 0 15px;
+    padding: 5px 15px;
     background: #75A175;
     border: #365439 solid 1px;
 }
@@ -421,7 +641,9 @@ ol li,
 }
 
 .tagType {
+    display: inline-block;
     padding: 0 1rem;
+    margin: 0.25rem auto;
     color: #414141;
     border: #707070 solid 1px;
     word-break: keep-all;
@@ -474,7 +696,8 @@ ol li,
 .illustrateArea,
 .illustrate,
 .secWorkArea,
-.secPaint {
+.secPaint,
+.addFriend {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -612,6 +835,19 @@ ol li,
     resize: none;
 }
 
+.image {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070;
+    box-shadow: 0px 0px 2px 2px #DDDDDD;
+}
+
+.image>img {
+    width: 100%;
+}
 /* 唯一 */
 
 .linkStyle {
@@ -870,8 +1106,6 @@ ol li,
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #707070;
     background: #FFFFFF;
 }
 
@@ -881,7 +1115,6 @@ ol li,
     align-items: center;
     width: 200px;
     height: 200px;
-    border: 1px solid #707070;
 }
 
 .worksImg img {
@@ -893,6 +1126,8 @@ ol li,
     width: calc(100% - 200px);
     box-sizing: border-box;
     padding: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #707070;
 }
 
 .worksContent {
@@ -1089,6 +1324,374 @@ ol li,
     text-align: left;
     color: #414141;
 }
+
+.informationFieldName {
+    width: 30%;
+    color: #1F5A1A;
+    text-align: left;
+}
+
+.resetMinHeight {
+    min-height: auto;
+}
+
+.author {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.cover {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.cover img {
+    width: 100%;
+}
+
+.bookArea {
+    width: 70%;
+    border: 1px solid #707070;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background: #B7D9B3;
+}
+
+.chapterArea {
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid #707070;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background: #D0E8CD;
+}
+
+
+.novelDetail,
+.indexArea {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 1rem;
+}
+
+.novelHead {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.novelTitle {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.novelTitle span:nth-child(1) {
+    padding: 0 1rem;
+    border: 1px solid #707070;
+    color: #414141;
+    text-align: center;
+}
+
+.novelTitle span:nth-child(2),
+.indexText {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    text-align: left;
+    color: #1F5A1A;
+}
+
+.novelTitle span:nth-child(2) {
+    margin-left: 0.5rem;
+}
+
+.novelAuthor {
+    text-align: right;
+}
+
+.novelDescription {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.informationItem span:nth-child(2),
+.classPopularity span:nth-child(2),
+.classInfoItem span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.bookUl,
+.bookLi,
+.chapterUl,
+.chapterLi {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bookLi {
+    margin-bottom: 1rem;
+}
+
+.chapterLi {
+    margin-top: 0.5rem;
+}
+
+.classHead {
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+}
+
+.classHead>span:nth-child(1) {
+    color: #1F5A1A;
+}
+
+.classFooter {
+    overflow: hidden;
+}
+
+.classInfoItem {
+    width: fit-content;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+
+.classFooter>.classInfoItem:not(:last-child) {
+    padding-left: 1.5rem;
+}
+
+.classFooter>.classInfoItem:first-child {
+    padding: 0;
+}
+
+.classFooter>.classInfoItem:last-child {
+    float: right;
+    text-align: right;
+}
+
+.message {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    min-height: calc(100vh - 17.5rem - 24px);
+    text-align: center;
+    color: #414141;
+}
+
+.contactArea, .chatroomArea {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contactArea {
+    width: 25%;
+    z-index: 10;
+}
+
+.chatroomArea {
+    width: 75%;
+    height: calc(100vh - 13.5rem);
+    z-index: 5;
+}
+
+.searchContact, .contactPerson, .contactPerson>li, .contactCover img, .submitMessage, .thisContact {
+    width: 100%;
+}
+
+.searchContact, .contactPerson>li, .contactCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchContact, .thisContact {
+    height: 2.5rem;
+    background: #82B57E;
+}
+
+.searchContact>input {
+    width: calc(60% - 34px);
+}
+
+.contactPerson {
+    max-height: calc(100vh - 16rem);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.contactPerson>li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.contactPerson>li:hover {
+    background: #DDDDDD;
+}
+
+.contactCover {
+    width: 60px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 0 0.5rem;
+}
+
+.previewMessage {
+    width: calc(100% - 100px);
+    line-break: anywhere;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.previewMessage span {
+    display: block;
+    width: 100%;
+    text-align: left;
+    max-height: 2rem;
+    overflow: hidden;
+}
+
+.previewMessage span:nth-child(1) {
+    color: #1F5A1A;
+    line-height: 1.5rem;
+}
+
+.previewMessage span:nth-child(2) {
+    line-height: 1rem;
+}
+
+.contactMore {
+    width: 50px;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+.contactMore span {
+    display: block;
+    transform: rotate(90deg);
+}
+
+.thisContact {
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: -2.5rem;
+}
+
+.thisContact span:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.thisContact span:nth-child(1) img {
+    width: 100%;
+}
+
+.thisContact span:nth-child(2) {
+    color: white;
+}
+
+.chatArea {
+    max-height: calc(100vh - 15.5rem);
+    overflow-y: scroll;
+}
+
+.submitMessage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #82B57E;
+    height: 2rem;
+    overflow: hidden;
+}
+
+.submitMessage>input {
+    width: calc(100% - 2rem - 20px);
+}
+
+.otherMessage {
+    overflow: hidden;    
+}
+
+.otherMessage, .selfMessage {
+    width: 100%;
+    padding: 1rem 0; 
+    overflow: hidden;
+}
+
+.messageArea {
+    width: 60%;
+}
+.otherMessage .messageArea {
+    display: flex;
+    align-items: flex-start;
+    float: left;
+}
+
+.selfMessage .messageArea {
+    display: flex;
+    align-items: flex-end;
+    float: right;
+}
+
+.messageInfo {
+    width: calc(100% - 1rem - 60px);
+}
+
+.messageInfo span {
+    width: 100%;
+    display: block;
+    line-break: anywhere;
+}
+
+.messageInfo span:nth-child(1) {
+    font-size: 0.9rem;
+}
+
+.otherMessage .messageInfo span:nth-child(1) {
+    text-align: left;
+}
+
+.selfMessage .messageInfo span:nth-child(1) {
+    text-align: right;
+}
+
+.messageInfo span:nth-child(2) {
+    padding: 5px;
+    color: #1F5A1A;
+    text-align: left;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px #DDDDDD;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    background: #EBF5EA;
+    padding: 5px;
+}
+
+.isRead {
+    display: block;
+    margin-right: 5px;
+    color: #1F5A1A;
+}
+
 /* 唯一 */
 
 .pc {
@@ -1109,4 +1712,45 @@ span.color_activity {
 
 span.color_message {
     background: #8DE290;
+}
+
+
+.type_fantasy {
+    background: #FFFFAC;
+}
+
+.type_love {
+    background: #E89EDE;
+}
+
+.type_horrible {
+    background: #AAAAAA;
+}
+
+.type_reasoning {
+    background: #E8C19E;
+}
+
+.type_SF {
+    background: #9EE8C5;
+}
+
+.type_literary {
+    background: #8DE290;
+}
+
+.type_comedy {
+    background: #E8AB9E;
+}
+
+.type_artialArts {
+    background: #9BC6E2;
+}
+
+.type_bgl {
+    background: #C69EE8;
+}
+
+.type_else {
+    background: #9E9EE8;
 }
