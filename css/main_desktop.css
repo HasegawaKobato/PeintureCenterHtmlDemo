@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.fullWidth, .subBar, .workHead, .likeButton img,.workContent img, .authorImage img, .image>img, .communityGuidelinesCategory, 
+.communityGuidelinesCategoryTitle, .communityGuidelines_Q, .loginForm input:not(.validateCode), .signInWith, .newWorkItem img, 
+.qaCategory, .qa_Q, .qa_A, .cover img, .searchContact, .contactPerson, .contactPerson>li, .contactCover img, .submitMessage, 
+.thisContact, .thisContact span:nth-child(1) img, .header, .navBar, .searchBar, .footer, .slogan, .footerIcon, .footerHr, 
+.footerBottom, .expandListArea, .themes, .breakRow textarea, div.postButtonArea, .newWorkArea, .grayBlock, .conditionTitle, 
+.contentBlock, .overviewWorkBlock, .collection, .collection table, .nextPage, .workTypes, .chapterInfo, .workContent, .msgBoard, 
+.leaveAMessage, .image, .announcementTitle, .announcementItem, .login, .signInWith img, .matchInformation, .matchInformation span:nth-child(1),
+.matchInformation span:nth-child(2), .introductionBlock, .introductionBlock>textarea, .uploadWork>textarea, .searchingArea,
+.searchingText span, .workItem, .worksContent, .newWorkItem, .newWorkItem>div, .fontArea, .informationTable, .author, .cover, .novelDetail,
+.indexArea, .novelDescription, .bookUl, .bookLi, .chapterUl, .chapterLi, .message, .previewMessage span, .otherMessage, .selfMessage, .messageInfo span {
+    width: 100%;
+}
+
+.sp, .menuIcon, .sp_navBarLogo, .collection ul, .forgetPassword_sp, .contentHead_sp {
+    display: none;
+}
+
+.relative, .header, .content, .footer, .copyrightText, .footerTool, .block60, .expandList, .newWorkArea, .tagArea div, .cover, .novelDetail,
+.indexArea, .classInfoItem, .message  {
+    display: block;
+    position: relative;
+}
+
+.flexBetween, .announcementItem a, .newWorkItem>div, .workTypesArea, .navBarTool ul, .navBarIcon ul, .submitMessage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexCenter, .navBar, .searchArea, .searchingArea, .newWorkItem>div>span:nth-child(2), .newSelect, .nextPage, .like,
+.newIdea, .illustrateArea, .illustrate, .secWorkArea, .secPaint, .addFriend, .image, .editIcon, .login, .buttonArea, .im, 
+.submitModify, .uploadWork, .workItem, .worksImg, .searchContact, .contactPerson>li, .contactCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden, .announcementContent, .fontArea, .bookUl, .bookLi, .chapterUl, .chapterLi, .classFooter, .otherMessage, .footer, .block60,
+.expandListArea, .fourmArea>.block, .illustrate, .secPaint, .secNovel, .authorImage, .announcementsContent, .worksContent, .goto, 
+.contactCover, .previewMessage span, .submitMessage, .otherMessage, .selfMessage {
+    overflow: hidden;
+}
+
+.border_normal, .contentBlock, .tagStatus, .tagType, .regularButton, .illustrate, .secPaint,
+.secNovel, .msgBoard, .authorImage, .deleteButton, .image, .newWorkItem>div>span:nth-child(2), .bookArea, .chapterArea,
+.novelTitle span:nth-child(1), .messageInfo span:nth-child(2) {
+    border: 1px solid #707070;
+}
+
+.border_normalR, .registerTable tr td:nth-child(1), .contactTable tr td:nth-child(1), .worksImg {
+    border-right: 1px solid #707070;
+}
+
+.border_normalB, .contactTable tr:not(:last-child) td, .fourmArea>.block, .workTitle, .msgHead, .qaItem, .novelHead, .novelDescription, .classHead {
+    border-bottom: 1px solid #707070;
+}
+
+.border_theme, .actionButton, .submitButton, .previousButton, .nextButton, .toIndexButton, .fontSize span {
+    border: 1px solid #365439;
+}
+
+.underline, .textUnderline, .workInformation span:nth-child(2), .secNovelPopularity span:nth-child(2), .location>span:nth-child(1),
+.location>span:nth-child(3), .statusItem span:nth-child(2), .informationItem span:nth-child(2), .classPopularity span:nth-child(2),
+.classInfoItem span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.alignLeft, .registerTable, .expandList, .contactTable, .listInBlock, .listInBlock li, .newWorkArea, .conditionTable, .contentBlock>ul>li,
+.overviewWorkBlock>ul>li, .chapterInfo, .workContent, .secNovelContent, .msgContent, .announcementsContent, .matchInformation, .introductionBlock, 
+.qaItem, .qa_A *:not(img), .informationTable tr td:nth-child(2), .informationFieldName, .novelTitle span:nth-child(2), .indexText, 
+.novelDescription, .classInfoItem, .previewMessage span, .otherMessage .messageInfo span:nth-child(1), .messageInfo span:nth-child(2) {
+    text-align: left;
+}
+
+.alignRight, .secNovelPopularity, .informationTable tr td:nth-child(1), .novelAuthor, .classFooter>.classInfoItem:last-child,
+.selfMessage .messageInfo span:nth-child(1) {
+    text-align: right;
+}
+
+.alignCenter, .header, .navBar, .searchBar, .footer, .slogan, .footerIcon, .footerHr, .block60, .themes, div.postButtonArea, .block, 
+.conditionTitle, .collection table, .advise, .actionButton, .submitButton, .workTypes, .tagStatus, .regularButton, .announcementTitle, 
+.forgetPassword, .newWorkItem>div>span:nth-child(2), .previousButton, .nextButton, .toIndexButton, .qa_A, .novelTitle span:nth-child(1), .message {
+    text-align: center;
+}
+
+.color_default, .registerTable span:first-child, .block60Title, .informationArea, .oneRow select, .newSelect select, .newWorkArea, .label,
+.tagStatus, .tagType, .announcementContent, .login, .im select, .searchingArea, .worksContent, .workDetails, .newWorkItem>div, .registerHint_sp,
+.informationTable tr td:nth-child(2), .novelTitle span:nth-child(1), .message {
+    color: #414141;
+}
+
+.color_normal, .navBarTool li, .listSubtitle, .newSelect, .tagArea div, .conditionTable, .collection table, .textUnderline, .nameTitle, .workTitle span:nth-child(1),
+.blockTitle, .communityGuidelinesItem, .matchInformation span:nth-child(1), .im, .introductionBlock>span, .serialStatus, .overViewTitle, .novelChapter, .qa_Q,
+.registerHint, .informationTable tr td:nth-child(1), .informationFieldName, .novelTitle span:nth-child(2), .indexText, .classHead>span:nth-child(1),
+.previewMessage span:nth-child(1), .messageInfo span:nth-child(2), .isRead {
+    color: #1F5A1A;
+}
+
+.color_light, .footer, .expandListTitle, .tagArea div:nth-child(1), .conditionTitle, .collection tr:nth-child(1), .actionButton, .submitButton, .nextPage, 
+.workTypes, .regularButton, .announcementTitle, .previousButton, .nextButton, .toIndexButton, .fontSize span, .thisContact span:nth-child(2) {
+    color: #FFFFFF;
+}
+
+.color_theme, .themes {
+    color: #2D548F;
+}
+
+.color_link, .linkStyle {
+    text-decoration: underline;
+    color: #0000FF;
+}
+
+.theme_light, .navBar, .searchBar, .themes, .tagArea div, .secNovel, .editIcon, .chapterArea, .messageInfo span:nth-child(2) {
+    background: #D0E8CD;
+}
+
+.theme_dark, .footer, .tagArea div:nth-child(1), .overviewWorkBlock, .collection, .collection tr:nth-child(1) td, .actionButton, .nextPage, .workTypes, .previousButton,
+.nextButton, .fontSize span, .searchContact, .thisContact, .submitMessage {
+    background: #82B57E;
+}
+
+.theme_hightLight, .expandListTitle, .conditionTitle, .submitButton, .announcementTitle, .toIndexButton {
+    background: #588154;
+}
+
+.theme_hightLightContent, .expandListArea, .grayBlock {
+    background: #FBFBFB;
+}
+
+.theme_article, .collection tr, .workItem {
+    background: #FFFFFF;
+}
+
+.theme_button, .regularButton {
+    background: #2D548F;
+}
+
+.theme_warning, .deleteButton, .finished {
+    background: #E8AB9E;
+}
+
+.theme_normal, .bookArea {
+    background: #B7D9B3;
+}

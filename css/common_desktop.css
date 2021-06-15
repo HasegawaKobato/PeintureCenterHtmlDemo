@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -31,33 +30,17 @@ a {
 .header,
 .navBar,
 .searchBar {
-    width: 100%;
     z-index: 10;
-    text-align: center;
 }
 
 .searchArea {
     width: 50%;
 }
 
-.navBar,
-.searchArea {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .navBar {
     height: 3rem;
-    background: #D0E8CD;
     box-shadow: 0px 0px 3px #707070;
     padding: 0 1rem;
-}
-
-.menuIcon,
-.sp_navBarLogo,
-.sp {
-    display: none;
 }
 
 .navBarIcon {
@@ -71,15 +54,7 @@ a {
     z-index: 25;
 }
 
-.navBarTool ul,
-.navBarIcon ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navBarTool li {
-    color: #1F5A1A;
     cursor: pointer;
 }
 
@@ -103,7 +78,6 @@ a {
     display: flex;
     justify-content: center;
     height: 2.5rem;
-    background: #D0E8CD;
     box-shadow: 0px 0px 3px #707070;
     transition: none;
 }
@@ -137,27 +111,11 @@ a {
 }
 
 /* ========↑↑↑=header=↑↑↑========= */
-.header,
-.content,
-.footer {
-    display: block;
-    position: relative;
-}
 
 /* ========↓↓↓=footer=↓↓↓========= */
-.footer,
-.slogan,
-.footerIcon,
-.footerHr {
-    width: 100%;
-    text-align: center;
-}
 
 .footer {
-    background: #82B57E;
-    color: white;
     box-shadow: 0px 0px 3px #707070;
-    overflow: hidden;
 }
 
 .innerFooter {
@@ -185,21 +143,16 @@ a {
 }
 
 .copyrightText {
-    display: block;
-    position: relative;
     float: left;
     width: 25%;
     font-size: 0.5rem;
 }
 
 .footerBottom {
-    width: 100%;
     height: 2rem;
 }
 
 .footerTool {
-    display: block;
-    position: relative;
     float: right;
     width: 75%;
 }
@@ -216,17 +169,12 @@ a {
 /* ======================================== */
 .block60 {
     width: 60%;
-    display: block;
-    position: relative;
     margin: 0 auto 10px auto;
     min-height: calc(100vh - 17.5rem - 24px);
-    text-align: center;
-    overflow: hidden;
 }
 
 .registerTable {
     margin: 10px auto;
-    text-align: left;
     border-collapse: separate;
     border-spacing: 10px;
 }
@@ -236,58 +184,39 @@ a {
     line-height: 2rem;
 }
 
-.registerTable span:first-child {
-    color: #414141;
-}
-
-.registerTable tr td:nth-child(1) {
-    border-right: 1px solid #707070;
-}
-
 .block60Title {
     font-size: 1.5rem;
     font-weight: bolder;
-    color: #414141;
     margin: 20px 0;
 }
 
 .informationArea {
     width: 70%;
     margin: 1rem auto;
-    color: #414141;
 }
 
 .expandList {
     width: 75%;
-    display: block;
-    position: relative;
     margin: 20px auto 10px auto;
     min-height: calc(100vh - 17.5rem - 24px);
-    text-align: left;
 }
 
 .expandListTitle {
     padding: 0 10px;
     font-size: 1.25rem;
     font-weight: bolder;
-    color: #FFFFFF;
-    background: #588154;
     box-sizing: border-box;
     box-shadow: 0px 2px 2px #DDDDDD;
 }
 
 .expandListArea {
-    width: 100%;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #DDDDDD;
-    background: #FBFBFB;
-    overflow: hidden;
     margin-bottom: 20px;
 }
 
 .contactTable {
     margin: 10px auto;
-    text-align: left;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
@@ -297,41 +226,16 @@ a {
     line-height: 2rem;
 }
 
-.contactTable tr:not(:first-child) td {
-    border-top: 1px solid #707070;
-}
-
-.contactTable tr td:nth-child(1) {
-    border-right: 1px solid #707070;
-}
-
 .listInBlock,
 .listInBlock li {
-    text-align: left;
     clear: both;
     float: initial;
 }
 
 .listSubtitle {
-    color: #1F5A1A;
     list-style-type: initial;
     font-size: 1rem;
     font-weight: bolder;
-}
-
-.alignLeft {
-    text-align: left;
-}
-
-.subBar {
-    width: 100%;
-}
-
-.themes {
-    width: 100%;
-    background: #D0E8CD;
-    text-align: center;
-    color: #2D548F;
 }
 
 .oneRow {
@@ -347,15 +251,10 @@ a {
 .oneRow select {
     padding: 0 5px;
     box-sizing: border-box;
-    color: #414141;
 }
 
 .newSelect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.25rem;
-    color: #1F5A1A;
     margin: 20px 0;
 }
 
@@ -366,28 +265,19 @@ a {
 .newSelect select {
     padding: 0 5px;
     box-sizing: border-box;
-    color: #414141;
 }
 
 .breakRow textarea {
-    width: 100%;
     min-height: 5rem;
     resize: vertical;
 }
 
 div.postButtonArea {
-    width: 100%;
-    text-align: center;
     margin-top: 5rem;
 }
 
 .newWorkArea {
-    width: 100%;
-    display: block;
-    position: relative;
     float: left;
-    text-align: left;
-    color: #414141;
 }
 
 .newWorkArea>div {
@@ -397,21 +287,15 @@ div.postButtonArea {
 .tagArea div {
     width: 30%;
     margin-left: -5%;
-    display: block;
-    position: relative;
     float: left;
     height: 2rem;
     line-height: 2rem;
-    color: #1F5A1A;
-    background: #D0E8CD;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     z-index: 5;
 }
 
 .tagArea div:nth-child(1) {
     margin: 0;
-    background: #75A47A;
-    color: #FFFFFF;
     z-index: 10;
 }
 
@@ -422,7 +306,7 @@ div.postButtonArea {
 
 .tagArea div:nth-child(2) {
     margin-left: -5%;
-    background: #75A47A;
+    background: #82B57E;
     color: #FFFFFF;
     z-index: 10;
 } */
@@ -430,21 +314,14 @@ div.postButtonArea {
 
 .block {
     margin: 20px 0;
-    text-align: center;
 }
 
 .grayBlock {
-    width: 100%;
     box-shadow: 2px 2px 2px #DDDDDD;
     border-radius: 10px 10px 0px 0px;
-    background: #FBFBFB;
 }
 
 .conditionTitle {
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-    background: #588154;
     font-weight: bolder;
     border-radius: 10px 10px 0px 0px;
 }
@@ -455,70 +332,44 @@ div.postButtonArea {
 
 .conditionTable {
     width: 50%;
-    color: #1F5A1A;
     border-collapse: collapse;
-    text-align: left;
     line-height: 2rem;
 }
 
-.label {
-    color: #414141;
-}
-
-.contentBlock, .overviewWorkBlock {
-    width: 100%;
+.contentBlock,
+.overviewWorkBlock {
     box-shadow: 2px 0px 2px #DDDDDD;
-    border: 1px solid #707070;
     border-radius: 0px 10px 10px 10px;
     clear: both;
 }
 
-.contentBlock>ul>li, .overviewWorkBlock>ul>li {
+.contentBlock>ul>li,
+.overviewWorkBlock>ul>li {
     float: inherit;
     padding: 10px;
     box-sizing: border-box;
-    text-align: left;
-}
-
-.overviewWorkBlock {
-    background: #82B57E;
 }
 
 .collection {
-    width: 100%;
     box-shadow: 2px 0px 2px #DDDDDD;
     border-radius: 0px 10px 10px 10px;
-    background: #82B57E;
     clear: both;
 }
 
 .collection table {
     display: table;
-    width: 100%;
-    color: #1F5A1A;
-    text-align: center;
     border-collapse: collapse;
 }
 
-.collection ul {
-    display: none;
-}
-
 .collection tr {
-    background: #FFFFFF;
     line-height: 2rem;
 }
 
 .collection td {
-    border-bottom: #707070 dashed 1px;
-}
-
-.collection tr:nth-child(1) {
-    color: #FFFFFF;
+    border-bottom: 1px dashed #707070;
 }
 
 .collection tr:nth-child(1) td {
-    background: #82B57E;
     border: none;
 }
 
@@ -527,39 +378,21 @@ div.postButtonArea {
     width: 30%;
 }
 
-.advise {
-    text-align: center;
-}
-
 .actionButton {
     width: 100px;
-    color: #FFFFFF;
-    text-align: center;
     margin: auto;
     padding: 5px 15px;
-    background: #82B57E;
-    border: #365439 solid 1px;
 }
 
 .submitButton {
     width: 100px;
-    color: #FFFFFF;
-    text-align: center;
     margin: auto;
     padding: 5px 15px;
-    background: #75A175;
-    border: #365439 solid 1px;
 }
 
 .nextPage {
-    width: 100%;
     height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     line-height: 2rem;
-    color: #FFFFFF;
-    background: #82B57E;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -587,17 +420,7 @@ div.postButtonArea {
     padding: 3rem 0 2rem 0;
 }
 
-.workTypes {
-    width: 100%;
-    background: #82B57E;
-    color: #FFFFFF;
-    text-align: center;
-}
-
 .workTypesArea {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 95%;
     margin: 0 auto;
 }
@@ -615,28 +438,13 @@ ol li,
     list-style-image: none;
 }
 
-.textUnderline {
-    text-decoration: underline;
-    color: #1F5A1A;
-}
-
 .nameTitle {
-    color: #1F5A1A;
     font-weight: bolder;
-}
-
-.flexBetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .tagStatus {
     display: inline-block;
     width: 7rem;
-    text-align: center;
-    color: #414141;
-    border: #707070 solid 1px;
     word-break: keep-all;
 }
 
@@ -644,19 +452,13 @@ ol li,
     display: inline-block;
     padding: 0 1rem;
     margin: 0.25rem auto;
-    color: #414141;
-    border: #707070 solid 1px;
     word-break: keep-all;
 }
 
 .regularButton {
     width: 200px;
-    text-align: center;
     line-height: 2.5rem;
     font-size: 1.25rem;
-    color: #FFFFFF;
-    border: 1px solid #707070;
-    background: #2D548F;
 }
 
 .workArea,
@@ -666,41 +468,14 @@ ol li,
 
 .chapterInfo,
 .workContent {
-    width: 100%;
-    text-align: left;
     margin-top: 0.5rem;
     transition: none;
-}
-
-.workHead {
-    width: 100%;
-}
-
-.workTitle {
-    border-bottom: 1px solid #707070;
 }
 
 .workTitle span:nth-child(1),
 .blockTitle {
     font-size: 1.25rem;
     font-weight: bolder;
-    color: #1F5A1A;
-}
-
-.workInformation span:nth-child(2) {
-    text-decoration: underline;
-}
-
-.like,
-.newIdea,
-.illustrateArea,
-.illustrate,
-.secWorkArea,
-.secPaint,
-.addFriend {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .like {
@@ -715,16 +490,6 @@ ol li,
     display: block;
     width: 24px;
     height: 24px;
-}
-
-.likeButton img,
-.workContent img {
-    width: 100%;
-}
-
-.block:not(:last-child) {
-    overflow: hidden;
-    border-bottom: 1px solid #707070;
 }
 
 .tags span {
@@ -749,8 +514,6 @@ ol li,
 .secNovel {
     height: 150px;
     margin: 0 0.5rem;
-    border: #707070 solid 1px;
-    overflow: hidden;
 }
 
 .illustrate img,
@@ -760,7 +523,6 @@ ol li,
 
 .secNovel {
     width: 300px;
-    background: #D0E8CD;
     padding: 0 5px;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px #DDDDDD;
@@ -768,23 +530,12 @@ ol li,
 
 .secNovelContent {
     max-height: 6rem;
-    text-align: left;
     overflow-y: hidden;
 }
 
-.secNovelPopularity {
-    text-align: right;
-}
-
-.secNovelPopularity span:nth-child(2) {
-    text-decoration: underline;
-}
-
 .msgBoard {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    border: #707070 solid 1px;
     padding: 5px;
     box-shadow: 2px 2px 2px #DDDDDD;
     box-sizing: border-box;
@@ -798,13 +549,7 @@ ol li,
     display: block;
     width: 100px;
     height: 100px;
-    border: #707070 solid 1px;
     box-shadow: 2px 2px 2px #DDDDDD;
-    overflow: hidden;
-}
-
-.authorImage img {
-    width: 100%;
 }
 
 .msgArea {
@@ -813,63 +558,30 @@ ol li,
     box-sizing: border-box;
 }
 
-.msgHead {
-    border-bottom: #707070 solid 1px;
-}
-
-.msgContent {
-    text-align: left;
-}
-
 .deleteButton {
     float: right;
-    border: #707070 solid 1px;
     padding: 0 5px;
-    background: #E8AB9E;
 }
 
 .leaveAMessage {
-    width: 100%;
     margin-bottom: 1rem;
     min-height: 7rem;
     resize: none;
 }
 
 .image {
-    width: 100%;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #707070;
     box-shadow: 0px 0px 2px 2px #DDDDDD;
 }
 
-.image>img {
-    width: 100%;
-}
 /* 唯一 */
-
-.linkStyle {
-    text-decoration: underline;
-    color: #0000FF;
-}
-
-.announcementsContent {
-    text-align: left;
-    overflow: hidden;
-}
 
 .editIcon {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid #000000;
-    background: #D9D9D9;
     right: 1rem;
     bottom: 1rem;
 }
@@ -883,15 +595,8 @@ ol li,
     justify-content: space-between;
 }
 
-.communityGuidelinesCategory,
-.communityGuidelinesCategoryTitle,
-.communityGuidelines_Q {
-    width: 100%;
-}
-
 .communityGuidelinesItem {
     font-weight: bolder;
-    color: #1F5A1A;
     padding: 10px 0;
     box-sizing: border-box;
 }
@@ -908,48 +613,20 @@ ol li,
 }
 
 .announcementTitle {
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-    background: #588154;
     font-weight: bolder;
     border-radius: 10px 10px 0px 0px;
-}
-
-.announcementContent {
-    overflow: hidden;
-    color: #414141;
 }
 
 .announcementItem {
     position: relative;
     display: block;
     float: left;
-    width: 100%;
     padding: 1rem;
-}
-
-.announcementItem a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.login {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #414141;
 }
 
 .loginArea {
     width: 80%;
     margin: auto;
-}
-
-.loginForm input:not(.validateCode) {
-    width: 100%;
 }
 
 .loginForm div {
@@ -960,55 +637,30 @@ ol li,
     width: 50%;
 }
 
-.buttonArea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.forgetPassword_sp {
-    display: none;
-}
-
 .forgetPassword {
     display: block;
-    text-align: center;
-    font-size: 0.8rem;
-}
-
-.signInWith {
-    width: 100%;
+    font-size: 0.75rem;
 }
 
 .signInWith img {
-    width: 100%;
     margin: 10px 0;
 }
 
 .matchInformation {
-    width: 100%;
-    text-align: left;
     margin: 1rem 0;
 }
 
 .matchInformation span:nth-child(1) {
     display: block;
-    width: 100%;
     font-size: 1.25rem;
-    color: #1F5A1A;
 }
 
 .matchInformation span:nth-child(2) {
     display: block;
-    width: 100%;
 }
 
 .im {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.25rem;
-    color: #1F5A1A;
     margin: 20px 0;
 }
 
@@ -1019,102 +671,66 @@ ol li,
 .im select {
     padding: 0 5px;
     box-sizing: border-box;
-    color: #414141;
-}
-
-.submitModify, .uploadWork {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .introductionBlock {
-    width: 100%;
-    text-align: left;
     margin: 0.5rem 0;
 }
 
 .introductionBlock>span {
     font-size: 1.25rem;
-    color: #1F5A1A;
     padding-left: 1rem;
 }
 
 .introductionBlock>textarea {
-    width: 100%;
     height: 4rem;
     resize: none;
 }
 
 .uploadWork>textarea {
-    width: 100%;
     height: 10rem;
     resize: none;
 }
 
 .uploadWork>textarea::placeholder {
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
     font-size: 1.25rem;
     text-align: center;
     line-height: 9.5rem;
 }
 
 .searchingArea {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     height: 10rem;
-    color: #414141;
 }
 
-.searchingText span{
+.searchingText span {
     display: block;
-    width: 100%;
 }
 
-.searchingText span:nth-child(1){
+.searchingText span:nth-child(1) {
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
-.searchingText span:nth-child(2){
-    font-size: 0.9rem;
+.searchingText span:nth-child(2) {
+    font-size: 1rem;
 }
 
 .location {
-    font-size: 0.8rem;
-}
-
-.location>span:nth-child(1), .location>span:nth-child(3) {
-    text-decoration: underline;
-}
-
-.serialStatus {
-    color: #1F5A1A;
+    font-size: 0.75rem;
 }
 
 .serialStatus>span {
     margin-right: 1rem;
 }
 
-.workItem {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FFFFFF;
-}
-
 .worksImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 200px;
     height: 200px;
+    margin-right: 10px;
 }
 
 .worksImg img {
@@ -1126,46 +742,31 @@ ol li,
     width: calc(100% - 200px);
     box-sizing: border-box;
     padding: 10px;
-    margin-left: 10px;
-    border-left: 1px solid #707070;
 }
 
 .worksContent {
-    width: 100%;
     height: 6rem;
     font-size: 1rem;
     resize: none;
     border: none;
     outline: none;
-    color: #414141;
-    overflow: hidden;
 }
 
 .worksContent:disabled {
     background: none;
 }
 
-.workDetails {
-    color: #414141;
-}
-
 .statusItem {
     padding: 0 0.5rem;
 }
 
-.statusItem span:nth-child(2) {
-    text-decoration: underline;
-}
-
 .overViewTitle {
     margin-left: 0.5rem;
-    color: #1F5A1A;
     font-size: 1.25rem;
     font-weight: bolder;
 }
 
 .newWorkItem {
-    width: 100%;
     display: block;
     border-bottom: 1px dashed #707070;
     padding-bottom: 1rem;
@@ -1173,11 +774,6 @@ ol li,
 }
 
 .newWorkItem>div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #414141;
     margin: 5px 0;
 }
 
@@ -1190,18 +786,11 @@ ol li,
 
 .newWorkItem>div>span:nth-child(2) {
     width: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: solid 1px #707070;
 }
 
-.newWorkItem img {
-    width: 100%;
-}
-
-.workName>span, .workBook>span, .workChapter>span {
+.workName>span,
+.workBook>span,
+.workChapter>span {
     display: block;
     width: 33.33%;
     float: left;
@@ -1211,7 +800,6 @@ ol li,
 .goto {
     width: fit-content;
     margin: 2rem auto 0 auto;
-    overflow: hidden;
 }
 
 .previousButton,
@@ -1219,51 +807,14 @@ ol li,
 .toIndexButton {
     width: 120px;
     float: left;
-    color: #FFFFFF;
-    text-align: center;
     line-height: 2.5rem;
     font-size: 1.25rem;
     margin: 0 0.9rem;
-    border: #365439 solid 1px;
-}
-
-.previousButton,
-.nextButton {
-    background: #82B57E;
-}
-
-.toIndexButton {
-    background: #75A175;
-}
-
-.fontArea {
-    width: 100%;
-    overflow: hidden;
 }
 
 .fontSize span {
     width: 3.5rem;
-    border: 1px solid #000000;
-    color: #FFFFFF;
-    border: #365439 solid 1px;
-    background: #82B57E;
     cursor: pointer;
-}
-
-.contentHead_sp {
-    display: none;
-}
-
-.novelChapter {
-    color: #1F5A1A;
-}
-
-.finished {
-    background: #E8AB9E;
-}
-
-.qaCategory, .qa_Q, .qa_A {
-    width: 100%;
 }
 
 .qaItem {
@@ -1271,27 +822,19 @@ ol li,
     box-sizing: border-box;
     padding: 5px 10px;
     margin: 0 auto 10px auto;
-    border-bottom: 1px solid #707070;
-    text-align: left;
 }
 
 .qa_Q {
     font-weight: bolder;
-    color: #1F5A1A;
 }
 
 .qa_A {
     counter-reset: #414141;
-    text-align: center;
 }
 
 .qa_A img {
     width: 75%;
     box-shadow: 2px 2px 2px #DDDDDD;
-}
-
-.qa_A *:not(img) {
-    text-align: left;
 }
 
 .registerInputArea {
@@ -1301,34 +844,19 @@ ol li,
 .registerHint_sp {
     display: none;
     font-size: 0.75rem;
-    color: #414141;    
 }
 
 .registerHint {
     font-size: 0.75rem;
-    color: #1F5A1A;
 }
 
 .informationTable {
-    width: 100%;
     border-collapse: separate;
     border-spacing: 1rem;
 }
 
-.informationTable tr td:nth-child(1) {
-    text-align: right;
-    color: #1F5A1A;
-}
-
-.informationTable tr td:nth-child(2) {
-    text-align: left;
-    color: #414141;
-}
-
 .informationFieldName {
     width: 30%;
-    color: #1F5A1A;
-    text-align: left;
 }
 
 .resetMinHeight {
@@ -1336,54 +864,38 @@ ol li,
 }
 
 .author {
-    width: 100%;
     font-size: 1.5rem;
 }
 
 .cover {
-    width: 100%;
-    display: block;
-    position: relative;
     float: left;
     margin-top: 1rem;
     max-height: 300px;
     overflow-y: scroll;
 }
 
-.cover img {
-    width: 100%;
-}
-
 .bookArea {
     width: 70%;
-    border: 1px solid #707070;
     padding: 5px 10px;
     box-sizing: border-box;
-    background: #B7D9B3;
 }
 
 .chapterArea {
     width: 70%;
     margin-left: 15%;
-    border: 1px solid #707070;
     padding: 5px 10px;
     box-sizing: border-box;
-    background: #D0E8CD;
 }
 
 
 .novelDetail,
 .indexArea {
-    width: 100%;
-    display: block;
-    position: relative;
     float: left;
     margin-top: 1rem;
 }
 
 .novelHead {
     padding-bottom: 5px;
-    border-bottom: 1px solid #707070;
     box-sizing: border-box;
 }
 
@@ -1394,47 +906,21 @@ ol li,
 
 .novelTitle span:nth-child(1) {
     padding: 0 1rem;
-    border: 1px solid #707070;
-    color: #414141;
-    text-align: center;
 }
 
 .novelTitle span:nth-child(2),
 .indexText {
     font-size: 1.25rem;
     font-weight: bolder;
-    text-align: left;
-    color: #1F5A1A;
 }
 
 .novelTitle span:nth-child(2) {
     margin-left: 0.5rem;
 }
 
-.novelAuthor {
-    text-align: right;
-}
-
 .novelDescription {
-    width: 100%;
-    text-align: left;
     padding-bottom: 5px;
-    border-bottom: 1px solid #707070;
     box-sizing: border-box;
-}
-
-.informationItem span:nth-child(2),
-.classPopularity span:nth-child(2),
-.classInfoItem span:nth-child(2) {
-    text-decoration: underline;
-}
-
-.bookUl,
-.bookLi,
-.chapterUl,
-.chapterLi {
-    width: 100%;
-    overflow: hidden;
 }
 
 .bookLi {
@@ -1446,24 +932,12 @@ ol li,
 }
 
 .classHead {
-    border-bottom: 1px solid #707070;
     box-sizing: border-box;
-}
-
-.classHead>span:nth-child(1) {
-    color: #1F5A1A;
-}
-
-.classFooter {
-    overflow: hidden;
 }
 
 .classInfoItem {
     width: fit-content;
-    display: block;
-    position: relative;
     float: left;
-    text-align: left;
 }
 
 .classFooter>.classInfoItem:not(:last-child) {
@@ -1476,20 +950,15 @@ ol li,
 
 .classFooter>.classInfoItem:last-child {
     float: right;
-    text-align: right;
 }
 
 .message {
-    width: 100%;
-    display: block;
-    position: relative;
     margin: 0 auto;
     min-height: calc(100vh - 17.5rem - 24px);
-    text-align: center;
-    color: #414141;
 }
 
-.contactArea, .chatroomArea {
+.contactArea,
+.chatroomArea {
     position: relative;
     float: left;
     box-sizing: border-box;
@@ -1506,19 +975,9 @@ ol li,
     z-index: 5;
 }
 
-.searchContact, .contactPerson, .contactPerson>li, .contactCover img, .submitMessage, .thisContact {
-    width: 100%;
-}
-
-.searchContact, .contactPerson>li, .contactCover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.searchContact, .thisContact {
+.searchContact,
+.thisContact {
     height: 2.5rem;
-    background: #82B57E;
 }
 
 .searchContact>input {
@@ -1542,7 +1001,6 @@ ol li,
 
 .contactCover {
     width: 60px;
-    overflow: hidden;
     border-radius: 30px;
     margin: 0 0.5rem;
 }
@@ -1556,14 +1014,10 @@ ol li,
 
 .previewMessage span {
     display: block;
-    width: 100%;
-    text-align: left;
     max-height: 2rem;
-    overflow: hidden;
 }
 
 .previewMessage span:nth-child(1) {
-    color: #1F5A1A;
     line-height: 1.5rem;
 }
 
@@ -1597,49 +1051,32 @@ ol li,
     cursor: pointer;
 }
 
-.thisContact span:nth-child(1) img {
-    width: 100%;
-}
-
-.thisContact span:nth-child(2) {
-    color: white;
-}
-
 .chatArea {
     max-height: calc(100vh - 15.5rem);
     overflow-y: scroll;
 }
 
 .submitMessage {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0 5px;
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #82B57E;
     height: 2rem;
-    overflow: hidden;
 }
 
 .submitMessage>input {
     width: calc(100% - 2rem - 20px);
 }
 
-.otherMessage {
-    overflow: hidden;    
-}
-
-.otherMessage, .selfMessage {
-    width: 100%;
-    padding: 1rem 0; 
-    overflow: hidden;
+.otherMessage,
+.selfMessage {
+    padding: 1rem 0;
 }
 
 .messageArea {
     width: 60%;
 }
+
 .otherMessage .messageArea {
     display: flex;
     align-items: flex-start;
@@ -1657,49 +1094,31 @@ ol li,
 }
 
 .messageInfo span {
-    width: 100%;
     display: block;
     line-break: anywhere;
 }
 
 .messageInfo span:nth-child(1) {
-    font-size: 0.9rem;
-}
-
-.otherMessage .messageInfo span:nth-child(1) {
-    text-align: left;
-}
-
-.selfMessage .messageInfo span:nth-child(1) {
-    text-align: right;
+    font-size: 0.75rem;
 }
 
 .messageInfo span:nth-child(2) {
     padding: 5px;
-    color: #1F5A1A;
-    text-align: left;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px #DDDDDD;
-    border: 1px solid #707070;
     border-radius: 10px;
-    background: #EBF5EA;
     padding: 5px;
 }
 
 .isRead {
     display: block;
     margin-right: 5px;
-    color: #1F5A1A;
 }
 
 /* 唯一 */
 
 .pc {
     display: inline-block;
-}
-
-.sp {
-    display: none;
 }
 
 span.color_system {
